@@ -1,0 +1,1591 @@
+{
+  "scope": "截至2026-11-19核对中国大陆六三学制人民教育出版社统编义务教育《语文》一至九年级的独立文言课文、编组课文中有篇名的文言选段和一篇近代文言选段。含2022年课标修订版公开册次、转版期仍公开的修订前册次及已核早期印次差异。本文件提供篇目与来源，覆盖教材主课文及编组内的文言选段。",
+  "as_of": "2026-11-19",
+  "reading_notes": [
+    "各册采用平台在核对日公开的版本，单册覆盖见 coverage。2027年春级次为按分年启用顺序的定位，不能当作该册已公开或已经使用。",
+    "篇目以年级、册次和标题定位。跨册调动保留两条位置记录，editions 标注相应版本，组课中有各自篇名的短文逐篇列出。",
+    "同名标题可有不同课内选段和字形。课堂引用教材原句前，应核对当前用本。同题异文如高中《论语》十二章须使用对应册次底本。"
+  ],
+  "sources": [
+    {
+      "title": "教育部公布的分年启用说明",
+      "url": "https://www.moe.gov.cn/jyb_xwfb/s5147/202408/t20240828_1147579.html",
+      "use": "核对2024、2025、2026秋逐步替换的时序。"
+    },
+    {
+      "title": "教育部2024年义务教育国家课程教学用书目录",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202408/W020240805496325238752.pdf",
+      "use": "核对国家统编六三学制与五四学制为不同书目。"
+    },
+    {
+      "title": "人民教育出版社第十二套义务教育教材介绍",
+      "url": "https://www.pep.com.cn/xw/zt/hd/12/",
+      "use": "核对修订背景与新版教材口径。"
+    },
+    {
+      "title": "国家中小学智慧教育平台电子教材资源清单",
+      "url": "https://s-file-1.ykt.cbern.com.cn/zxx/ndrs/resources/tch_material/version/data_version.json",
+      "use": "2026-11-19读取公开清单及分片，定位18册现有教材的题名、修订标记及目录预览。条目直接链接到对应目录图片。"
+    },
+    {
+      "title": "China-Textbook-New 的教材快照与逐册 SHA-256",
+      "url": "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/catalog.json",
+      "use": "从2026-11-01快照逐册下载核对目录及 SHA-256；课文目录的佐证，未复制现代教材内容。"
+    },
+    {
+      "title": "ChinaTextbook 的修订前教材目录快照",
+      "url": "https://github.com/TapXWorld/ChinaTextbook/tree/e2b3f62213c77bb8c33c5be355f97625ea1b8b61",
+      "use": "比对有文言课文的旧册次。旧印次相同册名可能收录不同选文。"
+    },
+    {
+      "title": "人民教育出版社初中七年级修订说明",
+      "url": "https://www.pep.com.cn/xw/zt/hd/12/zbtjc/202410/t20241015_1995856.html",
+      "use": "核对七年级修订启用与编排。"
+    },
+    {
+      "title": "人民教育出版社三年级上册修订要点",
+      "url": "https://www.pep.com.cn/bks/xxyw/jzjd/202510/W020251016516675066625.pdf",
+      "use": "核对2025年秋三上启用的书册。"
+    },
+    {
+      "title": "人民教育出版社八年级上册早期产品目录",
+      "url": "https://www.pep.com.cn/products/jc/czjks/201802/t20180209_1922717.shtml",
+      "use": "核对早期《孟子》二章版本。"
+    },
+    {
+      "title": "人民教育出版社七年级下册早期编写说明",
+      "url": "https://www.pep.com.cn/kcs/yjcg/lw/lw2017/201809/t20180926_1931683.html",
+      "use": "核对《河中石兽》早期册次。"
+    },
+    {
+      "title": "教育部基础教育精品课名单",
+      "url": "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202304/W020230420309231498801.pdf",
+      "use": "核对修订前统编四下和六下文言文二则。"
+    },
+    {
+      "title": "重庆市人民政府2026年秋新版教材报道",
+      "url": "https://cq.gov.cn/ywdt/jrcq/202609/t20260903_16024177.html",
+      "use": "核对九年级上册史传文和表文调入。"
+    },
+    {
+      "title": "苏州市人民政府2026年秋教材启用提示",
+      "url": "https://www.suzhou.gov.cn/szsrmzf/mszx/202608/15cfa67e4d9841128e27d99d4e344ea6.shtml",
+      "use": "核对2026年秋小学四至六年级及初中九年级新版启用。"
+    }
+  ],
+  "coverage": [
+    {
+      "grade": "一年级",
+      "volume": "上册",
+      "verified_edition": "2022年课标修订版",
+      "revised_cohort": "2024年秋级次",
+      "status": "已核无独立文言散文课文",
+      "verified_titles": [],
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=1c73b348-e8b6-47d6-84b0-6dbacbe28268&catalogType=tchMaterial&subCatalog=dzjc",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B8%80%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "verified_pdf_sha256": "f8a9bba537d1925c16eced2ff79c6a2ae28804a12caf3ea362c5bbe51062013b",
+      "note": "无独立文言散文课文。识字韵语及乐府诗《江南》属本目录范围之外。"
+    },
+    {
+      "grade": "一年级",
+      "volume": "下册",
+      "verified_edition": "2022年课标修订版",
+      "revised_cohort": "2025年春级次",
+      "status": "已核无独立文言散文课文",
+      "verified_titles": [],
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=b87e153f-a64c-451a-aa6c-6ed9ac7d6821&catalogType=tchMaterial&subCatalog=dzjc",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B8%80%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "verified_pdf_sha256": "a503884e543a48d0a9763a42c37425665b7893897662b3f029f368ddb1b92269",
+      "note": "无独立文言散文课文。第8课《人之初》为《三字经》韵文节选。"
+    },
+    {
+      "grade": "二年级",
+      "volume": "上册",
+      "verified_edition": "2022年课标修订版",
+      "revised_cohort": "2025年秋级次",
+      "status": "已核无独立文言散文课文",
+      "verified_titles": [],
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=2ce8f153-7bff-4c97-b6db-9aac414fea19&catalogType=tchMaterial&subCatalog=dzjc",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%BA%8C%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "verified_pdf_sha256": "0d1f2132731d53ff3ded1d3c1faee325f527dca1a081b9e18a6256a8d8924b9a",
+      "note": "无独立文言散文课文。修订前课文《曹冲称象》为现代汉语，文言版见修订版六上。"
+    },
+    {
+      "grade": "二年级",
+      "volume": "下册",
+      "verified_edition": "2022年课标修订版",
+      "revised_cohort": "2026年春级次",
+      "status": "已核无独立文言散文课文",
+      "verified_titles": [],
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=0f93b83e-b3c2-4a5d-8acd-ea460ab962d4&catalogType=tchMaterial&subCatalog=dzjc",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%BA%8C%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "verified_pdf_sha256": "86f5a17b3d3703e7a49c1f44aab3612d58590070753fbe80b6dd09953cf0fa19",
+      "note": "无独立文言散文课文。《寓言二则》等使用现代汉语讲述。"
+    },
+    {
+      "grade": "三年级",
+      "volume": "上册",
+      "verified_edition": "2022年课标修订版",
+      "revised_cohort": "2025年秋级次",
+      "status": "已核修订版目录",
+      "verified_titles": [
+        "司马光"
+      ],
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=837f368e-fd4e-404a-ae3f-342d75bc0227&catalogType=tchMaterial&subCatalog=dzjc",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B8%89%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "verified_pdf_sha256": "35169d6d9646a87be2ea84ea5b01de38a92774e26338d43810e8d8f22a558ac3"
+    },
+    {
+      "grade": "三年级",
+      "volume": "下册",
+      "verified_edition": "2022年课标修订版",
+      "revised_cohort": "2026年春级次",
+      "status": "已核修订版目录",
+      "verified_titles": [
+        "守株待兔"
+      ],
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=8e107655-5128-451f-84e5-d158725c537b&catalogType=tchMaterial&subCatalog=dzjc",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B8%89%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "verified_pdf_sha256": "af911d41b10c46908fd82610ecb0ec0f2c62fa8f609947b9748d00ab0d58e141"
+    },
+    {
+      "grade": "四年级",
+      "volume": "上册",
+      "verified_edition": "2022年课标修订版",
+      "revised_cohort": "2026年秋级次",
+      "status": "已核修订版目录",
+      "verified_titles": [
+        "精卫填海",
+        "王戎不取道旁李"
+      ],
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=5cd7e623-5c38-4602-871a-3fba8a551db2&catalogType=tchMaterial&subCatalog=dzjc",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%9B%9B%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "verified_pdf_sha256": "a79c9ef08600c799c5fe455c27cf5c79437cbc668a86aec2cce6b15fdf9f7981"
+    },
+    {
+      "grade": "四年级",
+      "volume": "下册",
+      "verified_edition": "修订前统编版",
+      "revised_cohort": "2027年春级次",
+      "status": "新版正式目录待核，已核公开旧版",
+      "verified_titles": [
+        "囊萤夜读",
+        "铁杵成针"
+      ],
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=53d6315e-5f90-42c4-904f-2d4e95fe99ed&catalogType=tchMaterial&subCatalog=dzjc",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%9B%9B%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "verified_pdf_sha256": "b5fd20a972e18a63c6e1f76ab03f9f189d25b8326ed1b5650358e2cab3e8dac1",
+      "pending_revision": {
+        "note": "2022年课标修订版四下的公开正式目录待核。零散培训笔记提及篇目与单元重排，暂不推断。",
+        "source_urls": [
+          "https://c.sjds.net/a/469971.html"
+        ]
+      }
+    },
+    {
+      "grade": "五年级",
+      "volume": "上册",
+      "verified_edition": "2022年课标修订版",
+      "revised_cohort": "2026年秋级次",
+      "status": "已核修订版目录",
+      "verified_titles": [
+        "少年中国说",
+        "古人谈读书"
+      ],
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=aabf2e4a-3ceb-4e86-8804-22c10223cc57&catalogType=tchMaterial&subCatalog=dzjc",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%BA%94%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "verified_pdf_sha256": "86303735a78bed9df039cfb2183c354642d93a5bd6faa2366d94e4196a95b438"
+    },
+    {
+      "grade": "五年级",
+      "volume": "下册",
+      "verified_edition": "修订前统编版",
+      "revised_cohort": "2027年春级次",
+      "status": "新版正式目录待核，已核公开旧版",
+      "verified_titles": [
+        "自相矛盾",
+        "杨氏之子"
+      ],
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=98172dc9-8fba-4da6-9fae-6a3d1166f038&catalogType=tchMaterial&subCatalog=dzjc",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%BA%94%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "verified_pdf_sha256": "8fb0db8d5364c8118eefada554b90182ec7f6de923e43779eaa7c98efca20f47",
+      "pending_revision": {
+        "note": "修订讲座整理显示原六上艺术单元移入五下，并提到新增《晏子使楚》。待正式目录确认《伯牙鼓琴》《书戴嵩画牛》的具体落点及《晏子使楚》的教材语言形式，先查询本目录已核实的修订前六上位置。",
+        "source_urls": [
+          "https://c.sjds.net/a/469971.html",
+          "https://m.sohu.com/a/1064046927_121948388/"
+        ]
+      }
+    },
+    {
+      "grade": "六年级",
+      "volume": "上册",
+      "verified_edition": "2022年课标修订版",
+      "revised_cohort": "2026年秋级次",
+      "status": "已核修订版目录",
+      "verified_titles": [
+        "两小儿辩日",
+        "曹冲称象"
+      ],
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=2e3dc199-9c42-486b-bbee-7731bd0ee227&catalogType=tchMaterial&subCatalog=dzjc",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AD%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "verified_pdf_sha256": "e148a13518a9f081d1faa296c88f349ebceb81d426aa3d357958e93cbe752bd4",
+      "older_verified_titles": [
+        "伯牙鼓琴",
+        "书戴嵩画牛"
+      ],
+      "older_source_url": "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%85%AD%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+    },
+    {
+      "grade": "六年级",
+      "volume": "下册",
+      "verified_edition": "修订前统编版",
+      "revised_cohort": "2027年春级次",
+      "status": "新版正式目录待核，已核公开旧版",
+      "verified_titles": [
+        "学弈",
+        "两小儿辩日"
+      ],
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=06422d77-21f1-45c3-b409-fa2947eee424&catalogType=tchMaterial&subCatalog=dzjc",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AD%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "verified_pdf_sha256": "878f8d7fba64b1f1277be9a5729952ecccbe1cb2c4ba135f9eb668724d20a683",
+      "pending_revision": {
+        "note": "第三方所列新版样稿目录称收《学弈》《关尹子教射》。它的学期标法与2026年春公开正式教材不符，单元排序也与另一份修订讲座转述不同。两篇在新版的最终编排待核，《关尹子教射》暂作待核线索。",
+        "source_urls": [
+          "https://dzkbw.org/book/5760.html",
+          "https://m.sohu.com/a/1064046927_121948388/"
+        ]
+      }
+    },
+    {
+      "grade": "七年级",
+      "volume": "上册",
+      "verified_edition": "2022年课标修订版",
+      "revised_cohort": "2024年秋级次",
+      "status": "已核修订版目录",
+      "verified_titles": [
+        "咏雪",
+        "陈太丘与友期行",
+        "论语十二章",
+        "诫子书",
+        "狼",
+        "穿井得一人",
+        "杞人忧天"
+      ],
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=8b9c7052-add4-4744-ab04-69d6c180d5d9&catalogType=tchMaterial&subCatalog=dzjc",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "verified_pdf_sha256": "83735d49f4559baf7ff55a38ffbfb2e5d99d428adf0683a0e119524dae1deeea"
+    },
+    {
+      "grade": "七年级",
+      "volume": "下册",
+      "verified_edition": "2022年课标修订版",
+      "revised_cohort": "2025年春级次",
+      "status": "已核修订版目录",
+      "verified_titles": [
+        "孙权劝学",
+        "卖油翁",
+        "陋室铭",
+        "爱莲说",
+        "活板"
+      ],
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=6b3ec445-9f7b-430c-a246-fc1903ca38b2&catalogType=tchMaterial&subCatalog=dzjc",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "verified_pdf_sha256": "302ffb9346de6f76c7eca1a8a00ea67795aa5ab8f6811e8cf3033ee2c24ac1bd",
+      "earlier_print_variant": {
+        "title": "河中石兽",
+        "in_later_prints": "活板",
+        "source_urls": [
+          "https://www.pep.com.cn/kcs/yjcg/lw/lw2017/201809/t20180926_1931683.html",
+          "https://www.fuzhou.gov.cn/zgfzzt/jy/mbjy/202203/P020220326357442115416.pdf"
+        ]
+      }
+    },
+    {
+      "grade": "八年级",
+      "volume": "上册",
+      "verified_edition": "2022年课标修订版",
+      "revised_cohort": "2025年秋级次",
+      "status": "已核修订版目录",
+      "verified_titles": [
+        "三峡",
+        "答谢中书书",
+        "记承天寺夜游",
+        "与朱元思书",
+        "得道多助，失道寡助",
+        "富贵不能淫",
+        "生于忧患，死于安乐",
+        "愚公移山",
+        "周亚夫军细柳"
+      ],
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=4f64356a-8df7-4579-9400-e32c9a7f6718&catalogType=tchMaterial&subCatalog=dzjc",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "verified_pdf_sha256": "818068db3c20fa339232fef21d2f6db3fc999f52aa5a09424d106e730e6c1e5d",
+      "earlier_print_variant": {
+        "early_group_title": "《孟子》二章",
+        "titles": [
+          "富贵不能淫",
+          "生于忧患，死于安乐"
+        ],
+        "source_urls": [
+          "https://www.pep.com.cn/products/jc/czjks/201802/t20180209_1922717.shtml"
+        ]
+      }
+    },
+    {
+      "grade": "八年级",
+      "volume": "下册",
+      "verified_edition": "2022年课标修订版",
+      "revised_cohort": "2026年春级次",
+      "status": "已核修订版目录",
+      "verified_titles": [
+        "桃花源记",
+        "小石潭记",
+        "核舟记",
+        "北冥有鱼",
+        "庄子与惠子游于濠梁之上",
+        "虽有嘉肴",
+        "大道之行也",
+        "马说"
+      ],
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=8f907d12-14b5-44ba-b042-0ffbc46e085b&catalogType=tchMaterial&subCatalog=dzjc",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "verified_pdf_sha256": "b03a898b410bd3a2b54489b12d746186ce06a2657b3da2167f03cbfb1018c2ca"
+    },
+    {
+      "grade": "九年级",
+      "volume": "上册",
+      "verified_edition": "2022年课标修订版",
+      "revised_cohort": "2026年秋级次",
+      "status": "已核修订版目录",
+      "verified_titles": [
+        "岳阳楼记",
+        "醉翁亭记",
+        "湖心亭看雪",
+        "曹刿论战",
+        "邹忌讽齐王纳谏",
+        "陈涉世家",
+        "出师表"
+      ],
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=a8b13ab7-7eef-4dc7-a3c7-8009ba65ce11&catalogType=tchMaterial&subCatalog=dzjc",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "verified_pdf_sha256": "2771da91d6373811a7f7307fa122b258f18e4a759b937e68e1e295da9cbde09f",
+      "older_verified_titles": [
+        "岳阳楼记",
+        "醉翁亭记",
+        "湖心亭看雪"
+      ],
+      "older_source_url": "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E4%B9%9D%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+    },
+    {
+      "grade": "九年级",
+      "volume": "下册",
+      "verified_edition": "修订前统编版",
+      "revised_cohort": "2027年春级次",
+      "status": "新版正式目录待核，已核公开旧版",
+      "verified_titles": [
+        "鱼我所欲也",
+        "唐雎不辱使命",
+        "送东阳马生序",
+        "曹刿论战",
+        "邹忌讽齐王纳谏",
+        "陈涉世家",
+        "出师表"
+      ],
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=a45516ee-78ed-46f0-b88b-671174f2a2fe&catalogType=tchMaterial&subCatalog=dzjc",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "verified_pdf_sha256": "22ca8f2e5c82e98f5960f4598412c47eefe16d0dc0f1a743fff4a4911e33c5e6",
+      "pending_revision": {
+        "note": "2026年秋修订版九上调入四篇已由政府报道和教材核实。网上新版九下目录称保留第三单元三篇、旧第六单元四篇调出；新九下整册仍需正式目录确认。",
+        "source_urls": [
+          "https://cq.gov.cn/ywdt/jrcq/202609/t20260903_16024177.html",
+          "https://www.yeyulingfeng.com/a/1302245.html"
+        ]
+      }
+    }
+  ],
+  "entries": [
+    {
+      "title": "司马光",
+      "aliases": [
+        "司马光砸缸",
+        "司马光击瓮"
+      ],
+      "grade": "三年级",
+      "volume": "上册",
+      "text_type": "文言短文",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/837f368e-fd4e-404a-ae3f-342d75bc0227.t/zh-CN/1787022983413/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B8%89%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E4%B8%89%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "修订版第23课，修订前第24课。课文改编自《宋史·司马光传》相关片段。"
+    },
+    {
+      "title": "守株待兔",
+      "aliases": [],
+      "grade": "三年级",
+      "volume": "下册",
+      "text_type": "文言短文",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8e107655-5128-451f-84e5-d158725c537b.t/zh-CN/1772437266029/transcode/image/4.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B8%89%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E4%B8%89%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C.pdf"
+      ],
+      "note": "第5课，选自《韩非子·五蠹》。"
+    },
+    {
+      "title": "精卫填海",
+      "aliases": [],
+      "grade": "四年级",
+      "volume": "上册",
+      "text_type": "文言短文",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/5cd7e623-5c38-4602-871a-3fba8a551db2.t/zh-CN/1787022983961/transcode/image/4.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%9B%9B%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%9B%9B%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "修订版第12课，修订前第13课。选自《山海经·北山经》。"
+    },
+    {
+      "title": "王戎不取道旁李",
+      "aliases": [
+        "王戎识李",
+        "王戎不取道旁苦李"
+      ],
+      "grade": "四年级",
+      "volume": "上册",
+      "text_type": "文言短文",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/5cd7e623-5c38-4602-871a-3fba8a551db2.t/zh-CN/1787022983961/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%9B%9B%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%9B%9B%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "修订版第七单元第23课，修订前第八单元第25课。选自《世说新语·雅量》。"
+    },
+    {
+      "title": "囊萤夜读",
+      "aliases": [
+        "车胤囊萤",
+        "囊萤"
+      ],
+      "grade": "四年级",
+      "volume": "下册",
+      "text_type": "文言短文",
+      "editions": [
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/53d6315e-5f90-42c4-904f-2d4e95fe99ed.t/zh-CN/1772437266852/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%9B%9B%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202304/W020230420309231498801.pdf"
+      ],
+      "note": "公开旧版第18课《文言文二则》之一，选自《晋书·车胤传》相关片段。"
+    },
+    {
+      "title": "铁杵成针",
+      "aliases": [
+        "铁杵磨针",
+        "磨针溪"
+      ],
+      "grade": "四年级",
+      "volume": "下册",
+      "text_type": "文言短文",
+      "editions": [
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/53d6315e-5f90-42c4-904f-2d4e95fe99ed.t/zh-CN/1772437266852/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%9B%9B%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202304/W020230420309231498801.pdf"
+      ],
+      "note": "公开旧版第18课《文言文二则》之一，来自《方舆胜览》所载磨针溪故事。"
+    },
+    {
+      "title": "少年中国说",
+      "aliases": [
+        "少年中国说（节选）",
+        "少年中国说(节选)"
+      ],
+      "grade": "五年级",
+      "volume": "上册",
+      "text_type": "近代文言选段",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/4.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%BA%94%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E4%BA%94%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "梁启超《少年中国说》的课内节选，作为同册的近代文言补充项收录。"
+    },
+    {
+      "title": "古人谈读书",
+      "aliases": [
+        "古人谈读书（论语）",
+        "古人谈读书（朱熹）",
+        "读书有三到"
+      ],
+      "grade": "五年级",
+      "volume": "上册",
+      "text_type": "文言组篇",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%BA%94%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E4%BA%94%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf",
+        "https://v2.ykt.cbern.com.cn/65/document/a72b8b2f5e724f2d9dc044cdd9e7d4a2/pdf.pdf",
+        "https://www.haoduoyun.cc/book/rjb/yuwen/5s/109.shtml"
+      ],
+      "note": "修订版第23课，包含《论语》五条与朱熹读书论述。修订前后期所核第25课另有《论语》“学如不及”一条。2019年前后早期资料还见曾国藩一则，授课时请核对手头印次。"
+    },
+    {
+      "title": "自相矛盾",
+      "aliases": [
+        "矛与盾"
+      ],
+      "grade": "五年级",
+      "volume": "下册",
+      "text_type": "文言短文",
+      "editions": [
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/98172dc9-8fba-4da6-9fae-6a3d1166f038.t/zh-CN/1772437267582/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%BA%94%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "note": "公开旧版第15课，选自《韩非子·难一》。"
+    },
+    {
+      "title": "杨氏之子",
+      "aliases": [
+        "杨氏子"
+      ],
+      "grade": "五年级",
+      "volume": "下册",
+      "text_type": "文言短文",
+      "editions": [
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/98172dc9-8fba-4da6-9fae-6a3d1166f038.t/zh-CN/1772437267582/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%BA%94%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "note": "公开旧版第21课，选自《世说新语·言语》。"
+    },
+    {
+      "title": "两小儿辩日",
+      "aliases": [
+        "两小儿辩太阳"
+      ],
+      "grade": "六年级",
+      "volume": "上册",
+      "text_type": "文言短文",
+      "editions": [
+        "2022年课标修订版"
+      ],
+      "source_urls": [
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/2e3dc199-9c42-486b-bbee-7731bd0ee227.t/zh-CN/1787022985331/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AD%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "note": "修订版第20课《文言文二则》之一，从修订前六下调入，选自《列子·汤问》。"
+    },
+    {
+      "title": "曹冲称象",
+      "aliases": [
+        "称象",
+        "曹冲称象（文言版）"
+      ],
+      "grade": "六年级",
+      "volume": "上册",
+      "text_type": "文言短文",
+      "editions": [
+        "2022年课标修订版"
+      ],
+      "source_urls": [
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/2e3dc199-9c42-486b-bbee-7731bd0ee227.t/zh-CN/1787022985331/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AD%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "note": "修订版第20课《文言文二则》之一，取自《三国志·魏书·邓哀王冲传》。修订前二上同名课文使用现代汉语。"
+    },
+    {
+      "title": "伯牙鼓琴",
+      "aliases": [
+        "伯牙与钟子期",
+        "高山流水"
+      ],
+      "grade": "六年级",
+      "volume": "上册",
+      "text_type": "文言短文",
+      "editions": [
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%85%AD%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "修订前第21课《文言文二则》之一，选自《吕氏春秋·本味》。同一典故的《伯牙绝弦》在旧课标实验教材中另有用本。"
+    },
+    {
+      "title": "书戴嵩画牛",
+      "aliases": [
+        "书戴嵩画牛一轴",
+        "杜处士好书画"
+      ],
+      "grade": "六年级",
+      "volume": "上册",
+      "text_type": "文言短文",
+      "editions": [
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%85%AD%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "修订前第21课《文言文二则》之一，苏轼作。"
+    },
+    {
+      "title": "学弈",
+      "aliases": [],
+      "grade": "六年级",
+      "volume": "下册",
+      "text_type": "文言短文",
+      "editions": [
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/06422d77-21f1-45c3-b409-fa2947eee424.t/zh-CN/1772437268359/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AD%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202304/W020230420309231498801.pdf"
+      ],
+      "note": "公开旧版第14课《文言文二则》之一，选自《孟子·告子上》。"
+    },
+    {
+      "title": "两小儿辩日",
+      "aliases": [
+        "两小儿辩太阳"
+      ],
+      "grade": "六年级",
+      "volume": "下册",
+      "text_type": "文言短文",
+      "editions": [
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/06422d77-21f1-45c3-b409-fa2947eee424.t/zh-CN/1772437268359/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%B0%8F%E5%AD%A6/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AD%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A06/202304/W020230420309231498801.pdf"
+      ],
+      "note": "公开旧版第14课《文言文二则》之一。2026年秋六上修订版已调入同题。"
+    },
+    {
+      "title": "咏雪",
+      "aliases": [
+        "世说新语二则·咏雪",
+        "谢太傅寒雪日内集"
+      ],
+      "grade": "七年级",
+      "volume": "上册",
+      "text_type": "文言短文",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8b9c7052-add4-4744-ab04-69d6c180d5d9.t/zh-CN/1787023080332/transcode/image/4.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E4%B8%83%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "第8课《世说新语》二则之一，取自《言语》。"
+    },
+    {
+      "title": "陈太丘与友期行",
+      "aliases": [
+        "陈太丘与友期",
+        "世说新语二则·陈太丘与友期行"
+      ],
+      "grade": "七年级",
+      "volume": "上册",
+      "text_type": "文言短文",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8b9c7052-add4-4744-ab04-69d6c180d5d9.t/zh-CN/1787023080332/transcode/image/4.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E4%B8%83%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "第8课《世说新语》二则之一，取自《方正》。"
+    },
+    {
+      "title": "论语十二章",
+      "aliases": [
+        "《论语》十二章",
+        "论语十二章（初中）",
+        "论语十二章（七上）"
+      ],
+      "grade": "七年级",
+      "volume": "上册",
+      "text_type": "文言语录组篇",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8b9c7052-add4-4744-ab04-69d6c180d5d9.t/zh-CN/1787023080332/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E4%B8%83%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "修订版第12课，修订前第11课。初中所选十二章与高中同名组篇分别核对。"
+    },
+    {
+      "title": "诫子书",
+      "aliases": [
+        "诸葛亮诫子书"
+      ],
+      "grade": "七年级",
+      "volume": "上册",
+      "text_type": "文言书信",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8b9c7052-add4-4744-ab04-69d6c180d5d9.t/zh-CN/1787023080332/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E4%B8%83%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "诸葛亮作。修订版第16课，修订前第15课。"
+    },
+    {
+      "title": "狼",
+      "aliases": [
+        "狼三则·其二",
+        "狼三则之二",
+        "蒲松龄·狼",
+        "聊斋志异·狼"
+      ],
+      "grade": "七年级",
+      "volume": "上册",
+      "text_type": "文言小说",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8b9c7052-add4-4744-ab04-69d6c180d5d9.t/zh-CN/1787023080332/transcode/image/6.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E4%B8%83%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "修订版第20课，修订前第18课，选自蒲松龄《聊斋志异》卷六《狼三则》的第二则。"
+    },
+    {
+      "title": "穿井得一人",
+      "aliases": [
+        "丁氏穿井",
+        "寓言四则·穿井得一人"
+      ],
+      "grade": "七年级",
+      "volume": "上册",
+      "text_type": "文言短文",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8b9c7052-add4-4744-ab04-69d6c180d5d9.t/zh-CN/1787023080332/transcode/image/6.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E4%B8%83%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "修订版第24课、修订前第22课《寓言四则》之一，取自《吕氏春秋·察传》。"
+    },
+    {
+      "title": "杞人忧天",
+      "aliases": [
+        "寓言四则·杞人忧天"
+      ],
+      "grade": "七年级",
+      "volume": "上册",
+      "text_type": "文言短文",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8b9c7052-add4-4744-ab04-69d6c180d5d9.t/zh-CN/1787023080332/transcode/image/6.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E4%B8%83%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "修订版第24课、修订前第22课《寓言四则》之一，取自《列子·天瑞》。"
+    },
+    {
+      "title": "孙权劝学",
+      "aliases": [
+        "孙权劝吕蒙",
+        "吕蒙就学"
+      ],
+      "grade": "七年级",
+      "volume": "下册",
+      "text_type": "文言史传选段",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/6b3ec445-9f7b-430c-a246-fc1903ca38b2.t/zh-CN/1772437479926/transcode/image/4.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E4%B8%83%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C.pdf"
+      ],
+      "note": "第4课，选自《资治通鉴》相关记载。"
+    },
+    {
+      "title": "卖油翁",
+      "aliases": [],
+      "grade": "七年级",
+      "volume": "下册",
+      "text_type": "文言短文",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/6b3ec445-9f7b-430c-a246-fc1903ca38b2.t/zh-CN/1772437479926/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E4%B8%83%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C.pdf"
+      ],
+      "note": "第13课，取自欧阳修《归田录》。"
+    },
+    {
+      "title": "陋室铭",
+      "aliases": [
+        "短文两篇·陋室铭"
+      ],
+      "grade": "七年级",
+      "volume": "下册",
+      "text_type": "文言铭文",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/6b3ec445-9f7b-430c-a246-fc1903ca38b2.t/zh-CN/1772437479926/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E4%B8%83%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C.pdf"
+      ],
+      "note": "第17课《短文两篇》之一，刘禹锡作。"
+    },
+    {
+      "title": "爱莲说",
+      "aliases": [
+        "短文两篇·爱莲说"
+      ],
+      "grade": "七年级",
+      "volume": "下册",
+      "text_type": "文言散文",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/6b3ec445-9f7b-430c-a246-fc1903ca38b2.t/zh-CN/1772437479926/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E4%B8%83%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C.pdf"
+      ],
+      "note": "第17课《短文两篇》之一，周敦颐作。"
+    },
+    {
+      "title": "活板",
+      "aliases": [
+        "活字印刷",
+        "梦溪笔谈·活板"
+      ],
+      "grade": "七年级",
+      "volume": "下册",
+      "text_type": "文言说明文",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/6b3ec445-9f7b-430c-a246-fc1903ca38b2.t/zh-CN/1772437479926/transcode/image/6.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E4%B8%83%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E4%B8%83%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C.pdf"
+      ],
+      "note": "所核修订版与修订前后期印次均为第25课，选自沈括《梦溪笔谈》。"
+    },
+    {
+      "title": "河中石兽",
+      "aliases": [
+        "阅微草堂笔记·河中石兽"
+      ],
+      "grade": "七年级",
+      "volume": "下册",
+      "text_type": "文言笔记小说",
+      "editions": [
+        "修订前早期印次"
+      ],
+      "source_urls": [
+        "https://www.pep.com.cn/kcs/yjcg/lw/lw2017/201809/t20180926_1931683.html",
+        "https://www.fuzhou.gov.cn/zgfzzt/jy/mbjy/202203/P020220326357442115416.pdf"
+      ],
+      "note": "修订前早期印次第六单元第25课，纪昀作，取自《阅微草堂笔记》。修订前后期电子书及新课标修订版的对应位置为《活板》。"
+    },
+    {
+      "title": "三峡",
+      "aliases": [
+        "水经注·三峡"
+      ],
+      "grade": "八年级",
+      "volume": "上册",
+      "text_type": "文言地理散文选段",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/4f64356a-8df7-4579-9400-e32c9a7f6718.t/zh-CN/1787023081439/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E5%85%AB%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "修订版第11课，修订前后期第10课，郦道元《水经注》节选。"
+    },
+    {
+      "title": "答谢中书书",
+      "aliases": [
+        "短文二篇·答谢中书书"
+      ],
+      "grade": "八年级",
+      "volume": "上册",
+      "text_type": "文言书信",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/4f64356a-8df7-4579-9400-e32c9a7f6718.t/zh-CN/1787023081439/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E5%85%AB%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "修订版第12课、修订前后期第11课《短文二篇》之一，陶弘景作。"
+    },
+    {
+      "title": "记承天寺夜游",
+      "aliases": [
+        "承天寺夜游",
+        "记承天夜游",
+        "短文二篇·记承天寺夜游"
+      ],
+      "grade": "八年级",
+      "volume": "上册",
+      "text_type": "文言游记",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/4f64356a-8df7-4579-9400-e32c9a7f6718.t/zh-CN/1787023081439/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E5%85%AB%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "修订版第12课、修订前后期第11课《短文二篇》之一，苏轼作。"
+    },
+    {
+      "title": "与朱元思书",
+      "aliases": [
+        "与朱元思书（吴均）"
+      ],
+      "grade": "八年级",
+      "volume": "上册",
+      "text_type": "文言书信",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/4f64356a-8df7-4579-9400-e32c9a7f6718.t/zh-CN/1787023081439/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E5%85%AB%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "修订版第13课，修订前后期第12课，吴均作。"
+    },
+    {
+      "title": "得道多助，失道寡助",
+      "aliases": [
+        "得道多助失道寡助",
+        "得道多助",
+        "孟子三章·得道多助，失道寡助"
+      ],
+      "grade": "八年级",
+      "volume": "上册",
+      "text_type": "文言论说文选段",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/4f64356a-8df7-4579-9400-e32c9a7f6718.t/zh-CN/1787023081439/transcode/image/7.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E5%85%AB%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf",
+        "https://www.pep.com.cn/products/jc/czjks/201802/t20180209_1922717.shtml"
+      ],
+      "note": "第23课《孟子》三章之一，取自《公孙丑下》。早期《孟子》二章版本未选这一章。"
+    },
+    {
+      "title": "富贵不能淫",
+      "aliases": [
+        "孟子三章·富贵不能淫",
+        "孟子二章·富贵不能淫"
+      ],
+      "grade": "八年级",
+      "volume": "上册",
+      "text_type": "文言论说文选段",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/4f64356a-8df7-4579-9400-e32c9a7f6718.t/zh-CN/1787023081439/transcode/image/7.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E5%85%AB%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf",
+        "https://www.pep.com.cn/products/jc/czjks/201802/t20180209_1922717.shtml"
+      ],
+      "note": "第23课《孟子》三章之一，取自《滕文公下》。较早《孟子》二章版本也收录。"
+    },
+    {
+      "title": "生于忧患，死于安乐",
+      "aliases": [
+        "生于忧患死于安乐",
+        "生于忧患",
+        "孟子三章·生于忧患，死于安乐",
+        "孟子二章·生于忧患，死于安乐"
+      ],
+      "grade": "八年级",
+      "volume": "上册",
+      "text_type": "文言论说文选段",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/4f64356a-8df7-4579-9400-e32c9a7f6718.t/zh-CN/1787023081439/transcode/image/7.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E5%85%AB%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf",
+        "https://www.pep.com.cn/products/jc/czjks/201802/t20180209_1922717.shtml"
+      ],
+      "note": "第23课《孟子》三章之一，取自《告子下》。较早《孟子》二章版本也收录。"
+    },
+    {
+      "title": "愚公移山",
+      "aliases": [
+        "列子·愚公移山"
+      ],
+      "grade": "八年级",
+      "volume": "上册",
+      "text_type": "文言短文",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/4f64356a-8df7-4579-9400-e32c9a7f6718.t/zh-CN/1787023081439/transcode/image/7.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E5%85%AB%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "第24课，取自《列子·汤问》。"
+    },
+    {
+      "title": "周亚夫军细柳",
+      "aliases": [
+        "细柳营",
+        "周亚夫细柳营",
+        "史记·周亚夫军细柳"
+      ],
+      "grade": "八年级",
+      "volume": "上册",
+      "text_type": "文言史传选段",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/4f64356a-8df7-4579-9400-e32c9a7f6718.t/zh-CN/1787023081439/transcode/image/7.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E5%85%AB%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "第25课，选自司马迁《史记·绛侯周勃世家》。"
+    },
+    {
+      "title": "桃花源记",
+      "aliases": [
+        "桃花源记并诗·序",
+        "桃花源诗并记·记"
+      ],
+      "grade": "八年级",
+      "volume": "下册",
+      "text_type": "文言记叙文",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8f907d12-14b5-44ba-b042-0ffbc46e085b.t/zh-CN/1772437481149/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E5%85%AB%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C.pdf"
+      ],
+      "note": "第9课，陶渊明作。课内收记文，古本可与同题诗并列。"
+    },
+    {
+      "title": "小石潭记",
+      "aliases": [
+        "至小丘西小石潭记"
+      ],
+      "grade": "八年级",
+      "volume": "下册",
+      "text_type": "文言游记",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8f907d12-14b5-44ba-b042-0ffbc46e085b.t/zh-CN/1772437481149/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E5%85%AB%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C.pdf"
+      ],
+      "note": "第10课，柳宗元《永州八记》之一。"
+    },
+    {
+      "title": "核舟记",
+      "aliases": [
+        "魏学洢·核舟记"
+      ],
+      "grade": "八年级",
+      "volume": "下册",
+      "text_type": "文言说明文",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8f907d12-14b5-44ba-b042-0ffbc46e085b.t/zh-CN/1772437481149/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E5%85%AB%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C.pdf"
+      ],
+      "note": "第11课，魏学洢作。"
+    },
+    {
+      "title": "北冥有鱼",
+      "aliases": [
+        "庄子二则·北冥有鱼",
+        "逍遥游·北冥有鱼"
+      ],
+      "grade": "八年级",
+      "volume": "下册",
+      "text_type": "文言哲理散文选段",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8f907d12-14b5-44ba-b042-0ffbc46e085b.t/zh-CN/1772437481149/transcode/image/6.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E5%85%AB%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C.pdf"
+      ],
+      "note": "第21课《庄子》二则之一，取自《逍遥游》的开篇。不可和高中所用较长《逍遥游》选段直接等同。"
+    },
+    {
+      "title": "庄子与惠子游于濠梁之上",
+      "aliases": [
+        "庄子二则·庄子与惠子游于濠梁之上",
+        "濠梁之辩",
+        "濠梁观鱼"
+      ],
+      "grade": "八年级",
+      "volume": "下册",
+      "text_type": "文言哲理散文选段",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8f907d12-14b5-44ba-b042-0ffbc46e085b.t/zh-CN/1772437481149/transcode/image/6.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E5%85%AB%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C.pdf"
+      ],
+      "note": "第21课《庄子》二则之一，取自《秋水》。"
+    },
+    {
+      "title": "虽有嘉肴",
+      "aliases": [
+        "礼记二则·虽有嘉肴",
+        "学记·虽有嘉肴"
+      ],
+      "grade": "八年级",
+      "volume": "下册",
+      "text_type": "文言论说文选段",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8f907d12-14b5-44ba-b042-0ffbc46e085b.t/zh-CN/1772437481149/transcode/image/6.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E5%85%AB%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C.pdf"
+      ],
+      "note": "第22课《礼记》二则之一，取自《学记》。"
+    },
+    {
+      "title": "大道之行也",
+      "aliases": [
+        "礼记二则·大道之行也",
+        "礼运·大道之行也",
+        "礼运大同篇"
+      ],
+      "grade": "八年级",
+      "volume": "下册",
+      "text_type": "文言论说文选段",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8f907d12-14b5-44ba-b042-0ffbc46e085b.t/zh-CN/1772437481149/transcode/image/6.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E5%85%AB%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C.pdf"
+      ],
+      "note": "第22课《礼记》二则之一，取自《礼运》。"
+    },
+    {
+      "title": "马说",
+      "aliases": [
+        "杂说四·马说",
+        "杂说四",
+        "韩愈·马说"
+      ],
+      "grade": "八年级",
+      "volume": "下册",
+      "text_type": "文言论说文",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8f907d12-14b5-44ba-b042-0ffbc46e085b.t/zh-CN/1772437481149/transcode/image/6.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E5%85%AB%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E5%85%AB%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C.pdf"
+      ],
+      "note": "第23课，韩愈《杂说》中的第四篇。"
+    },
+    {
+      "title": "岳阳楼记",
+      "aliases": [],
+      "grade": "九年级",
+      "volume": "上册",
+      "text_type": "文言记叙文",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/a8b13ab7-7eef-4dc7-a3c7-8009ba65ce11.t/zh-CN/1787023080892/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E4%B9%9D%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "第11课，范仲淹作。"
+    },
+    {
+      "title": "醉翁亭记",
+      "aliases": [],
+      "grade": "九年级",
+      "volume": "上册",
+      "text_type": "文言记叙文",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/a8b13ab7-7eef-4dc7-a3c7-8009ba65ce11.t/zh-CN/1787023080892/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E4%B9%9D%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "第12课，欧阳修作。"
+    },
+    {
+      "title": "湖心亭看雪",
+      "aliases": [
+        "张岱·湖心亭看雪"
+      ],
+      "grade": "九年级",
+      "volume": "上册",
+      "text_type": "文言游记",
+      "editions": [
+        "2022年课标修订版",
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/a8b13ab7-7eef-4dc7-a3c7-8009ba65ce11.t/zh-CN/1787023080892/transcode/image/5.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://github.com/TapXWorld/ChinaTextbook/blob/e2b3f62213c77bb8c33c5be355f97625ea1b8b61/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88-%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE/%E4%B9%9D%E5%B9%B4%E7%BA%A7/%E4%B9%89%E5%8A%A1%E6%95%99%E8%82%B2%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "第13课，张岱作，见《陶庵梦忆》。"
+    },
+    {
+      "title": "曹刿论战",
+      "aliases": [
+        "长勺之战",
+        "左传·曹刿论战"
+      ],
+      "grade": "九年级",
+      "volume": "上册",
+      "text_type": "文言史传选段",
+      "editions": [
+        "2022年课标修订版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/a8b13ab7-7eef-4dc7-a3c7-8009ba65ce11.t/zh-CN/1787023080892/transcode/image/6.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://cq.gov.cn/ywdt/jrcq/202609/t20260903_16024177.html"
+      ],
+      "note": "修订版第六单元第23课，由修订前九下第六单元调入。取自《左传·庄公十年》。"
+    },
+    {
+      "title": "邹忌讽齐王纳谏",
+      "aliases": [
+        "邹忌讽谏"
+      ],
+      "grade": "九年级",
+      "volume": "上册",
+      "text_type": "文言史传选段",
+      "editions": [
+        "2022年课标修订版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/a8b13ab7-7eef-4dc7-a3c7-8009ba65ce11.t/zh-CN/1787023080892/transcode/image/6.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://cq.gov.cn/ywdt/jrcq/202609/t20260903_16024177.html"
+      ],
+      "note": "修订版第六单元第24课，由修订前九下第六单元调入。取自《战国策·齐策一》。"
+    },
+    {
+      "title": "陈涉世家",
+      "aliases": [
+        "陈胜吴广起义",
+        "史记·陈涉世家"
+      ],
+      "grade": "九年级",
+      "volume": "上册",
+      "text_type": "文言史传选段",
+      "editions": [
+        "2022年课标修订版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/a8b13ab7-7eef-4dc7-a3c7-8009ba65ce11.t/zh-CN/1787023080892/transcode/image/6.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://cq.gov.cn/ywdt/jrcq/202609/t20260903_16024177.html"
+      ],
+      "note": "修订版第六单元第25课，由修订前九下第六单元调入。课文为《史记》相关选段。"
+    },
+    {
+      "title": "出师表",
+      "aliases": [
+        "前出师表",
+        "诸葛亮·出师表"
+      ],
+      "grade": "九年级",
+      "volume": "上册",
+      "text_type": "文言表文",
+      "editions": [
+        "2022年课标修订版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/a8b13ab7-7eef-4dc7-a3c7-8009ba65ce11.t/zh-CN/1787023080892/transcode/image/6.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://cq.gov.cn/ywdt/jrcq/202609/t20260903_16024177.html"
+      ],
+      "note": "修订版第六单元第26课，由修订前九下第六单元调入。指诸葛亮《前出师表》。"
+    },
+    {
+      "title": "鱼我所欲也",
+      "aliases": [
+        "鱼，我所欲也",
+        "孟子·鱼我所欲也"
+      ],
+      "grade": "九年级",
+      "volume": "下册",
+      "text_type": "文言论说文选段",
+      "editions": [
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/a45516ee-78ed-46f0-b88b-671174f2a2fe.t/zh-CN/1772437480457/transcode/image/4.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "note": "公开旧版第9课，取自《孟子·告子上》。"
+    },
+    {
+      "title": "唐雎不辱使命",
+      "aliases": [
+        "唐雎不辱使命（战国策）"
+      ],
+      "grade": "九年级",
+      "volume": "下册",
+      "text_type": "文言史传选段",
+      "editions": [
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/a45516ee-78ed-46f0-b88b-671174f2a2fe.t/zh-CN/1772437480457/transcode/image/4.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "note": "公开旧版第10课，取自《战国策·魏策四》。"
+    },
+    {
+      "title": "送东阳马生序",
+      "aliases": [
+        "送东阳马生序（节选）",
+        "送东阳马生序(节选)"
+      ],
+      "grade": "九年级",
+      "volume": "下册",
+      "text_type": "文言赠序选段",
+      "editions": [
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/a45516ee-78ed-46f0-b88b-671174f2a2fe.t/zh-CN/1772437480457/transcode/image/4.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf"
+      ],
+      "note": "公开旧版第11课，宋濂作，教材为节选。"
+    },
+    {
+      "title": "曹刿论战",
+      "aliases": [
+        "长勺之战",
+        "左传·曹刿论战"
+      ],
+      "grade": "九年级",
+      "volume": "下册",
+      "text_type": "文言史传选段",
+      "editions": [
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/a45516ee-78ed-46f0-b88b-671174f2a2fe.t/zh-CN/1772437480457/transcode/image/6.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://cq.gov.cn/ywdt/jrcq/202609/t20260903_16024177.html"
+      ],
+      "note": "公开旧版第六单元第20课。2026年秋九上修订版已调入同题。"
+    },
+    {
+      "title": "邹忌讽齐王纳谏",
+      "aliases": [
+        "邹忌讽谏"
+      ],
+      "grade": "九年级",
+      "volume": "下册",
+      "text_type": "文言史传选段",
+      "editions": [
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/a45516ee-78ed-46f0-b88b-671174f2a2fe.t/zh-CN/1772437480457/transcode/image/6.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://cq.gov.cn/ywdt/jrcq/202609/t20260903_16024177.html"
+      ],
+      "note": "公开旧版第六单元第21课。2026年秋九上修订版已调入同题。"
+    },
+    {
+      "title": "陈涉世家",
+      "aliases": [
+        "陈胜吴广起义",
+        "史记·陈涉世家"
+      ],
+      "grade": "九年级",
+      "volume": "下册",
+      "text_type": "文言史传选段",
+      "editions": [
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/a45516ee-78ed-46f0-b88b-671174f2a2fe.t/zh-CN/1772437480457/transcode/image/6.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://cq.gov.cn/ywdt/jrcq/202609/t20260903_16024177.html"
+      ],
+      "note": "公开旧版第六单元第22课。2026年秋九上修订版已调入同题。"
+    },
+    {
+      "title": "出师表",
+      "aliases": [
+        "前出师表",
+        "诸葛亮·出师表"
+      ],
+      "grade": "九年级",
+      "volume": "下册",
+      "text_type": "文言表文",
+      "editions": [
+        "修订前统编版"
+      ],
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/a45516ee-78ed-46f0-b88b-671174f2a2fe.t/zh-CN/1772437480457/transcode/image/6.jpg",
+        "https://github.com/NBrangerF/China-Textbook-New/blob/e657c463345d8bf7f944059cc09e097addab9dc4/%E5%88%9D%E4%B8%AD/%E8%AF%AD%E6%96%87/%E7%BB%9F%E7%BC%96%E7%89%88/%E8%AF%AD%E6%96%87%E4%B9%9D%E5%B9%B4%E7%BA%A7%E4%B8%8B%E5%86%8C%C2%B7%E7%BB%9F%E7%BC%96%E7%89%88.pdf",
+        "https://cq.gov.cn/ywdt/jrcq/202609/t20260903_16024177.html"
+      ],
+      "note": "公开旧版第六单元第23课。2026年秋九上修订版已调入同题。"
+    }
+  ]
+}

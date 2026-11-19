@@ -1,0 +1,26 @@
+{
+  "license": "CC BY-SA 4.0",
+  "attribution": "中文维基词典贡献者；Kaikki.org / Wiktextract",
+  "sources": [
+    {
+      "page": "https://kaikki.org/zhwiktionary/%E6%BC%A2%E8%AA%9E/categories-other/hv/%E6%9C%89%E5%BC%95%E6%96%87%E7%9A%84%E6%96%87%E8%A8%80%E6%96%87%E8%A9%9E/index.html",
+      "download": "https://kaikki.org/zhwiktionary/%E6%BC%A2%E8%AA%9E/categories-other/hv/%E6%9C%89%E5%BC%95%E6%96%87%E7%9A%84%E6%96%87%E8%A8%80%E6%96%87%E8%A9%9E/kaikki.org-dictionary-%E6%BC%A2%E8%AA%9E-category-%E6%9C%89%E5%BC%95%E6%96%87%E7%9A%84%E6%96%87%E8%A8%80%E6%96%87%E8%A9%9E.jsonl",
+      "raw_sha256": "507010efb993485cf6cf1bdba31f5c0a1b7046014372d13f4ef91ddfbff68e2d",
+      "raw_bytes": 41482337,
+      "raw_records": 3965,
+      "extracted": "2026-11-02",
+      "dump_date": "2026-11-01"
+    },
+    {
+      "page": "https://kaikki.org/zhwiktionary/%E6%BC%A2%E8%AA%9E/tags/RY/literary/index.html",
+      "download": "https://kaikki.org/zhwiktionary/%E6%BC%A2%E8%AA%9E/tags/RY/literary/kaikki.org-dictionary-%E6%BC%A2%E8%AA%9E-tag-literary.jsonl",
+      "raw_sha256": "58d9aa157fa86f44eeb35be4bc25253613f181f5da4dd89063c39e799e884920",
+      "raw_bytes": 26685165,
+      "raw_records": 2794,
+      "extracted": "2026-11-02",
+      "dump_date": "2026-11-01"
+    }
+  ],
+  "compact_records": 7608,
+  "compact_sha256": "16743ff96d63433b1b9f2aaca7df66e838a19b0c064460527494f0f9fe1ef084"
+}

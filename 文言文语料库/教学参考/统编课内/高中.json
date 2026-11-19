@@ -1,0 +1,757 @@
+{
+  "scope": "教育部组织编写、人民教育出版社出版的普通高中语文统编教材。覆盖国家中小学智慧教育平台可核的必修上、下册和选择性必修上、中、下册五册。按目录独立教学的文言散文、文言小说、书信与辞赋，以及已明确随诗词正文刊出的独立文言小序建索引；保留自读课文。诗词曲正文、古白话戏曲与小说、整本书阅读、单元任务引用或拓展阅读不计；《归去来兮辞并序》作为完整辞赋课例收录，序与辞标明边界。《典论·论文》不在这五册的独立课文目录内；《报任安书》属关联阅读，不因此标成课文。册次、课号、页码与自读星号按所链接电子本，地方实际用书或其他印次可有差异。这里是篇目目录；教材链接供核版本与选段，不代替另有来源标注的古文底本。",
+  "sources": [
+    {
+      "title": "GitHub 公开课文整理目录（发现与比对）",
+      "url": "https://github.com/hantang/yuwen"
+    },
+    {
+      "title": "人民教育出版社《普通高中语文教材介绍》（五册范围）",
+      "url": "https://www.pep.com.cn/xw/zt/hd/zjywjytbskjc/skgl/201908/t20190828_1944667.html"
+    },
+    {
+      "title": "国家智慧教育平台电子教材《普通高中教科书·语文 必修上册》",
+      "volume": "必修上册",
+      "url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/b8e9a3fe-dae7-49c0-86cb-d146f883fd8e.pkg/pdf.pdf"
+    },
+    {
+      "title": "国家智慧教育平台电子教材《普通高中教科书·语文 必修下册》",
+      "volume": "必修下册",
+      "url": "https://v3.ykt.cbern.com.cn/65/document/1d317aa68c434159aa1ae0e1f9889825/pdf.pdf"
+    },
+    {
+      "title": "国家智慧教育平台电子教材《普通高中教科书·语文 选择性必修上册》",
+      "volume": "选择性必修上册",
+      "url": "https://c1.ykt.cbern.com.cn/%E5%90%88%E5%B9%B6%E7%94%B5%E5%AD%90%E6%95%99%E6%9D%90/0321/%E7%BB%9F%E7%BC%96%E7%89%88/%E9%AB%98%E4%B8%AD/%E8%AF%AD%E6%96%87/%E9%AB%98%E4%B8%AD%E5%B9%B4%E7%BA%A7/%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E9%80%89%E6%8B%A9%E6%80%A7%E5%BF%85%E4%BF%AE%20%E4%B8%8A%E5%86%8C.pdf"
+    },
+    {
+      "title": "国家智慧教育平台电子教材《普通高中教科书·语文 选择性必修中册》",
+      "volume": "选择性必修中册",
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/da694670-f25b-46a0-9c3f-a31f5a2f131a.pkg/pdf.pdf"
+    },
+    {
+      "title": "国家智慧教育平台电子教材《普通高中教科书·语文 选择性必修下册》",
+      "volume": "选择性必修下册",
+      "url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2de54e6d-1f82-4fdc-9f26-c94dfed9c5af.pkg/pdf.pdf"
+    }
+  ],
+  "entries": [
+    {
+      "title": "琵琶行并序·小序",
+      "aliases": [
+        "琵琶行并序",
+        "琵琶行小序",
+        "琵琶引小序"
+      ],
+      "grade": "高中",
+      "volume": "必修上册",
+      "text_type": "文言小序",
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/b8e9a3fe-dae7-49c0-86cb-d146f883fd8e.pkg/pdf.pdf"
+      ],
+      "note": "第三单元第8课，第62页，自读。白居易。仅收「元和十年」起至「命曰《琵琶行》」的序，不含「浔阳江头夜送客」以下诗体正文。",
+      "parts": [
+        {
+          "title": "小序",
+          "start": "元和十年",
+          "end": "命曰《琵琶行》"
+        }
+      ]
+    },
+    {
+      "title": "劝学（节选）",
+      "aliases": [
+        "劝学",
+        "荀子劝学",
+        "荀子·劝学"
+      ],
+      "grade": "高中",
+      "volume": "必修上册",
+      "text_type": "诸子散文节选",
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/b8e9a3fe-dae7-49c0-86cb-d146f883fd8e.pkg/pdf.pdf"
+      ],
+      "note": "第六单元第10课，第84页。《荀子·劝学》从「君子曰：学不可以已」起，止于末段「用心躁也」。原篇其他文字不在此课范围。",
+      "parts": [
+        {
+          "title": "教材节选",
+          "start": "君子曰：学不可以已",
+          "end": "用心躁也"
+        }
+      ]
+    },
+    {
+      "title": "师说",
+      "aliases": [
+        "韩愈师说"
+      ],
+      "grade": "高中",
+      "volume": "必修上册",
+      "text_type": "文言论说文",
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/b8e9a3fe-dae7-49c0-86cb-d146f883fd8e.pkg/pdf.pdf"
+      ],
+      "note": "第六单元第10课，第85页，自读。韩愈作，从「古之学者必有师」起。"
+    },
+    {
+      "title": "赤壁赋",
+      "aliases": [
+        "前赤壁赋",
+        "苏轼赤壁赋"
+      ],
+      "grade": "高中",
+      "volume": "必修上册",
+      "text_type": "文赋",
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/b8e9a3fe-dae7-49c0-86cb-d146f883fd8e.pkg/pdf.pdf"
+      ],
+      "note": "第七单元第16课，第118页。苏轼《前赤壁赋》，正文首句「壬戌之秋」，不含《后赤壁赋》。"
+    },
+    {
+      "title": "登泰山记",
+      "aliases": [
+        "姚鼐登泰山记"
+      ],
+      "grade": "高中",
+      "volume": "必修上册",
+      "text_type": "文言游记",
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/b8e9a3fe-dae7-49c0-86cb-d146f883fd8e.pkg/pdf.pdf"
+      ],
+      "note": "第七单元第16课，第120页，自读。姚鼐作，从「泰山之阳，汶水西流」起。"
+    },
+    {
+      "title": "子路、曾皙、冉有、公西华侍坐",
+      "aliases": [
+        "子路曾皙冉有公西华侍坐",
+        "侍坐",
+        "论语·侍坐"
+      ],
+      "grade": "高中",
+      "volume": "必修下册",
+      "text_type": "诸子对话节选",
+      "source_urls": [
+        "https://v3.ykt.cbern.com.cn/65/document/1d317aa68c434159aa1ae0e1f9889825/pdf.pdf"
+      ],
+      "note": "第一单元第1课，第2页。《论语·先进》末章，含子路、冉有、公西华、曾皙对话及结末的点评。",
+      "parts": [
+        {
+          "title": "《论语·先进》末章",
+          "start": "子路、曾皙、冉有、公西华侍坐",
+          "end": "孰能为之大"
+        }
+      ]
+    },
+    {
+      "title": "齐桓晋文之事",
+      "aliases": [
+        "孟子·齐桓晋文之事",
+        "孟子梁惠王上第七章"
+      ],
+      "grade": "高中",
+      "volume": "必修下册",
+      "text_type": "诸子对话节选",
+      "source_urls": [
+        "https://v3.ykt.cbern.com.cn/65/document/1d317aa68c434159aa1ae0e1f9889825/pdf.pdf"
+      ],
+      "note": "第一单元第1课，第4页，自读。《孟子·梁惠王上》第七章，由齐宣王发问至末句「然而不王者，未之有也」。",
+      "parts": [
+        {
+          "title": "《孟子·梁惠王上》第七章",
+          "start": "齐桓、晋文之事可得闻乎",
+          "end": "然而不王者，未之有也"
+        }
+      ]
+    },
+    {
+      "title": "庖丁解牛",
+      "aliases": [
+        "庄子·庖丁解牛",
+        "庄子·养生主·庖丁解牛"
+      ],
+      "grade": "高中",
+      "volume": "必修下册",
+      "text_type": "诸子寓言节选",
+      "source_urls": [
+        "https://v3.ykt.cbern.com.cn/65/document/1d317aa68c434159aa1ae0e1f9889825/pdf.pdf"
+      ],
+      "note": "第一单元第1课，第8页。《庄子·养生主》节选，始于庖丁为文惠君解牛，止于文惠君自言「得养生焉」，不收养生主全文。",
+      "parts": [
+        {
+          "title": "《庄子·养生主》选节",
+          "start": "庖丁为文惠君解牛",
+          "end": "得养生焉"
+        }
+      ]
+    },
+    {
+      "title": "烛之武退秦师",
+      "aliases": [
+        "左传·烛之武退秦师",
+        "烛之武"
+      ],
+      "grade": "高中",
+      "volume": "必修下册",
+      "text_type": "编年史叙事节选",
+      "source_urls": [
+        "https://v3.ykt.cbern.com.cn/65/document/1d317aa68c434159aa1ae0e1f9889825/pdf.pdf"
+      ],
+      "note": "第一单元第2课，第10页。《左传·僖公三十年》围郑段，由晋侯、秦伯围郑至子犯请击秦而晋军撤退。",
+      "parts": [
+        {
+          "title": "《左传·僖公三十年》选节",
+          "start": "晋侯、秦伯围郑",
+          "end": "亦去之"
+        }
+      ]
+    },
+    {
+      "title": "鸿门宴",
+      "aliases": [
+        "项羽本纪·鸿门宴",
+        "史记·鸿门宴"
+      ],
+      "grade": "高中",
+      "volume": "必修下册",
+      "text_type": "史传散文节选",
+      "source_urls": [
+        "https://v3.ykt.cbern.com.cn/65/document/1d317aa68c434159aa1ae0e1f9889825/pdf.pdf"
+      ],
+      "note": "第一单元第3课，第13页，自读。司马迁《史记·项羽本纪》所选一段；至刘邦回营斩曹无伤，不收整篇本纪。",
+      "parts": [
+        {
+          "title": "《史记·项羽本纪》选节",
+          "start": "沛公军霸上",
+          "end": "沛公至军，立诛杀曹无伤"
+        }
+      ]
+    },
+    {
+      "title": "谏逐客书",
+      "aliases": [
+        "谏逐客令",
+        "李斯谏逐客书",
+        "上秦始皇逐客书"
+      ],
+      "grade": "高中",
+      "volume": "必修下册",
+      "text_type": "文言上书",
+      "source_urls": [
+        "https://v3.ykt.cbern.com.cn/65/document/1d317aa68c434159aa1ae0e1f9889825/pdf.pdf"
+      ],
+      "note": "第五单元第11课，第85页。李斯作，可在《史记·李斯列传》内对照辨认本文，列传中的传记框架不属于上书正文。"
+    },
+    {
+      "title": "与妻书",
+      "aliases": [
+        "林觉民与妻书",
+        "与妻诀别书",
+        "诀别书"
+      ],
+      "grade": "高中",
+      "volume": "必修下册",
+      "text_type": "近代文言书信",
+      "source_urls": [
+        "https://v3.ykt.cbern.com.cn/65/document/1d317aa68c434159aa1ae0e1f9889825/pdf.pdf"
+      ],
+      "note": "第五单元第11课，第87页，自读。林觉民书信，成文较近，但按其文言书信语言形态收录。"
+    },
+    {
+      "title": "促织",
+      "aliases": [
+        "聊斋志异·促织",
+        "蒲松龄促织"
+      ],
+      "grade": "高中",
+      "volume": "必修下册",
+      "text_type": "文言小说",
+      "source_urls": [
+        "https://v3.ykt.cbern.com.cn/65/document/1d317aa68c434159aa1ae0e1f9889825/pdf.pdf"
+      ],
+      "note": "第六单元第14课，第119页。蒲松龄《聊斋志异》篇目。所核国家智慧教育平台电子本目录未标星，课堂可按学校实际印次核对。"
+    },
+    {
+      "title": "谏太宗十思疏",
+      "aliases": [
+        "十思疏",
+        "魏征谏太宗十思疏",
+        "魏徵谏太宗十思疏"
+      ],
+      "grade": "高中",
+      "volume": "必修下册",
+      "text_type": "文言奏疏",
+      "source_urls": [
+        "https://v3.ykt.cbern.com.cn/65/document/1d317aa68c434159aa1ae0e1f9889825/pdf.pdf"
+      ],
+      "note": "第八单元第15课，第144页。魏征作，从「臣闻求木之长者」起。"
+    },
+    {
+      "title": "答司马谏议书",
+      "aliases": [
+        "王安石答司马谏议书",
+        "答司马谏议书（王安石）"
+      ],
+      "grade": "高中",
+      "volume": "必修下册",
+      "text_type": "文言书信",
+      "source_urls": [
+        "https://v3.ykt.cbern.com.cn/65/document/1d317aa68c434159aa1ae0e1f9889825/pdf.pdf"
+      ],
+      "note": "第八单元第15课，第146页，自读。王安石作，从「某启」起。"
+    },
+    {
+      "title": "阿房宫赋",
+      "aliases": [
+        "杜牧阿房宫赋"
+      ],
+      "grade": "高中",
+      "volume": "必修下册",
+      "text_type": "文赋",
+      "source_urls": [
+        "https://v3.ykt.cbern.com.cn/65/document/1d317aa68c434159aa1ae0e1f9889825/pdf.pdf"
+      ],
+      "note": "第八单元第16课，第148页。杜牧作，以秦宫兴毁为线索。"
+    },
+    {
+      "title": "六国论",
+      "aliases": [
+        "苏洵六国论",
+        "六国论（苏洵）"
+      ],
+      "grade": "高中",
+      "volume": "必修下册",
+      "text_type": "文言史论",
+      "source_urls": [
+        "https://v3.ykt.cbern.com.cn/65/document/1d317aa68c434159aa1ae0e1f9889825/pdf.pdf"
+      ],
+      "note": "第八单元第16课，第150页，自读。仅苏洵的「六国破灭，非兵不利，战不善」一篇；同名苏轼、苏辙文章不在此课。"
+    },
+    {
+      "title": "论语十二章",
+      "aliases": [
+        "《论语》十二章",
+        "高中论语十二章",
+        "君子食无求饱"
+      ],
+      "grade": "高中",
+      "volume": "选择性必修上册",
+      "text_type": "诸子语录选章",
+      "source_urls": [
+        "https://c1.ykt.cbern.com.cn/%E5%90%88%E5%B9%B6%E7%94%B5%E5%AD%90%E6%95%99%E6%9D%90/0321/%E7%BB%9F%E7%BC%96%E7%89%88/%E9%AB%98%E4%B8%AD/%E8%AF%AD%E6%96%87/%E9%AB%98%E4%B8%AD%E5%B9%B4%E7%BA%A7/%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E9%80%89%E6%8B%A9%E6%80%A7%E5%BF%85%E4%BF%AE%20%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "第二单元第5课，第42页。高中选章不同于七年级同名课文；依次为学而1章、八佾1章、里仁3章、雍也1章、泰伯1章、子罕2章、颜渊1章、卫灵公1章、阳货1章。见各选章首句。",
+      "parts": [
+        {
+          "title": "学而",
+          "start": "君子食无求饱"
+        },
+        {
+          "title": "八佾",
+          "start": "人而不仁，如礼何"
+        },
+        {
+          "title": "里仁",
+          "start": "朝闻道，夕死可矣"
+        },
+        {
+          "title": "里仁",
+          "start": "君子喻于义，小人喻于利"
+        },
+        {
+          "title": "里仁",
+          "start": "见贤思齐焉"
+        },
+        {
+          "title": "雍也",
+          "start": "质胜文则野"
+        },
+        {
+          "title": "泰伯",
+          "start": "士不可以不弘毅"
+        },
+        {
+          "title": "子罕",
+          "start": "譬如为山，未成一篑"
+        },
+        {
+          "title": "子罕",
+          "start": "知者不惑，仁者不忧"
+        },
+        {
+          "title": "颜渊",
+          "start": "颜渊问仁"
+        },
+        {
+          "title": "卫灵公",
+          "start": "子贡问曰：有一言而可以终身行之者乎"
+        },
+        {
+          "title": "阳货",
+          "start": "小子何莫学夫《诗》"
+        }
+      ]
+    },
+    {
+      "title": "大学之道",
+      "aliases": [
+        "礼记·大学",
+        "《大学》节选",
+        "明明德"
+      ],
+      "grade": "高中",
+      "volume": "选择性必修上册",
+      "text_type": "经书节选",
+      "source_urls": [
+        "https://c1.ykt.cbern.com.cn/%E5%90%88%E5%B9%B6%E7%94%B5%E5%AD%90%E6%95%99%E6%9D%90/0321/%E7%BB%9F%E7%BC%96%E7%89%88/%E9%AB%98%E4%B8%AD/%E8%AF%AD%E6%96%87/%E9%AB%98%E4%B8%AD%E5%B9%B4%E7%BA%A7/%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E9%80%89%E6%8B%A9%E6%80%A7%E5%BF%85%E4%BF%AE%20%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "第二单元第5课，第43页。《礼记·大学》选段，依教材用「亲民」，止于「壹是皆以修身为本」。",
+      "parts": [
+        {
+          "title": "《礼记·大学》选节",
+          "start": "大学之道，在明明德",
+          "end": "壹是皆以修身为本"
+        }
+      ]
+    },
+    {
+      "title": "人皆有不忍人之心",
+      "aliases": [
+        "孟子·人皆有不忍人之心",
+        "不忍人之心",
+        "孟子·四端"
+      ],
+      "grade": "高中",
+      "volume": "选择性必修上册",
+      "text_type": "诸子散文节选",
+      "source_urls": [
+        "https://c1.ykt.cbern.com.cn/%E5%90%88%E5%B9%B6%E7%94%B5%E5%AD%90%E6%95%99%E6%9D%90/0321/%E7%BB%9F%E7%BC%96%E7%89%88/%E9%AB%98%E4%B8%AD/%E8%AF%AD%E6%96%87/%E9%AB%98%E4%B8%AD%E5%B9%B4%E7%BA%A7/%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E9%80%89%E6%8B%A9%E6%80%A7%E5%BF%85%E4%BF%AE%20%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "第二单元第5课，第44页，自读。《孟子·公孙丑上》节选，至「不足以事父母」。",
+      "parts": [
+        {
+          "title": "《孟子·公孙丑上》选节",
+          "start": "人皆有不忍人之心",
+          "end": "不足以事父母"
+        }
+      ]
+    },
+    {
+      "title": "老子四章",
+      "aliases": [
+        "《老子》四章",
+        "道德经四章",
+        "三十辐共一毂"
+      ],
+      "grade": "高中",
+      "volume": "选择性必修上册",
+      "text_type": "诸子散文选章",
+      "source_urls": [
+        "https://c1.ykt.cbern.com.cn/%E5%90%88%E5%B9%B6%E7%94%B5%E5%AD%90%E6%95%99%E6%9D%90/0321/%E7%BB%9F%E7%BC%96%E7%89%88/%E9%AB%98%E4%B8%AD/%E8%AF%AD%E6%96%87/%E9%AB%98%E4%B8%AD%E5%B9%B4%E7%BA%A7/%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E9%80%89%E6%8B%A9%E6%80%A7%E5%BF%85%E4%BF%AE%20%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "第二单元第6课，第46页。教材选第十一、二十四、三十三、六十四章，第二十四章教材作「企者不立」；作「跂者不立」的原文底本需另标异文。",
+      "parts": [
+        {
+          "title": "第十一章",
+          "start": "三十辐共一毂"
+        },
+        {
+          "title": "第二十四章",
+          "start": "企者不立",
+          "alternative_start": "跂者不立"
+        },
+        {
+          "title": "第三十三章",
+          "start": "知人者智，自知者明"
+        },
+        {
+          "title": "第六十四章",
+          "start": "其安易持，其未兆易谋"
+        }
+      ]
+    },
+    {
+      "title": "五石之瓠",
+      "aliases": [
+        "庄子·五石之瓠",
+        "大瓠之种",
+        "庄子·逍遥游·五石之瓠"
+      ],
+      "grade": "高中",
+      "volume": "选择性必修上册",
+      "text_type": "诸子寓言节选",
+      "source_urls": [
+        "https://c1.ykt.cbern.com.cn/%E5%90%88%E5%B9%B6%E7%94%B5%E5%AD%90%E6%95%99%E6%9D%90/0321/%E7%BB%9F%E7%BC%96%E7%89%88/%E9%AB%98%E4%B8%AD/%E8%AF%AD%E6%96%87/%E9%AB%98%E4%B8%AD%E5%B9%B4%E7%BA%A7/%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E9%80%89%E6%8B%A9%E6%80%A7%E5%BF%85%E4%BF%AE%20%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "第二单元第6课，第47页，自读。《庄子·逍遥游》节选，课文始于惠子向庄子说大瓠之种，不收《逍遥游》全文。",
+      "parts": [
+        {
+          "title": "《庄子·逍遥游》选节",
+          "start": "惠子谓庄子曰",
+          "end": "则夫子犹有蓬之心也夫"
+        }
+      ]
+    },
+    {
+      "title": "兼爱",
+      "aliases": [
+        "墨子·兼爱",
+        "墨子·兼爱上"
+      ],
+      "grade": "高中",
+      "volume": "选择性必修上册",
+      "text_type": "诸子论说文",
+      "source_urls": [
+        "https://c1.ykt.cbern.com.cn/%E5%90%88%E5%B9%B6%E7%94%B5%E5%AD%90%E6%95%99%E6%9D%90/0321/%E7%BB%9F%E7%BC%96%E7%89%88/%E9%AB%98%E4%B8%AD/%E8%AF%AD%E6%96%87/%E9%AB%98%E4%B8%AD%E5%B9%B4%E7%BA%A7/%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E6%95%99%E7%A7%91%E4%B9%A6%C2%B7%E8%AF%AD%E6%96%87%E9%80%89%E6%8B%A9%E6%80%A7%E5%BF%85%E4%BF%AE%20%E4%B8%8A%E5%86%8C.pdf"
+      ],
+      "note": "第二单元第7课，第49页，自读。采用《墨子·兼爱上》课文范围；「兼爱中」「兼爱下」不得混入。",
+      "parts": [
+        {
+          "title": "《墨子·兼爱上》选篇",
+          "start": "圣人以治天下为事者也",
+          "end": "故子墨子曰不可以不劝爱人者，此也"
+        }
+      ]
+    },
+    {
+      "title": "屈原列传",
+      "aliases": [
+        "屈原贾生列传·屈原",
+        "史记·屈原列传"
+      ],
+      "grade": "高中",
+      "volume": "选择性必修中册",
+      "text_type": "史传散文节选",
+      "source_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/da694670-f25b-46a0-9c3f-a31f5a2f131a.pkg/pdf.pdf"
+      ],
+      "note": "第三单元第9课，第82页。司马迁《史记·屈原贾生列传》中屈原部分，含末尾「太史公曰」；正文带教材省略号，不把原传全文（包括贾谊传记）当课文。",
+      "parts": [
+        {
+          "title": "《史记·屈原贾生列传》课文首末",
+          "start": "屈原者，名平，楚之同姓也",
+          "end": "又爽然自失矣"
+        }
+      ]
+    },
+    {
+      "title": "苏武传",
+      "aliases": [
+        "汉书·苏武传",
+        "李广苏建传·苏武",
+        "苏武牧羊"
+      ],
+      "grade": "高中",
+      "volume": "选择性必修中册",
+      "text_type": "史传散文节选",
+      "source_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/da694670-f25b-46a0-9c3f-a31f5a2f131a.pkg/pdf.pdf"
+      ],
+      "note": "第三单元第10课，第87页，自读。班固《汉书·李广苏建传》内苏武事迹节选。正文中有省略号，末段叙十九年后归汉，止于「须发尽白」。",
+      "parts": [
+        {
+          "title": "《汉书·李广苏建传》选节末句",
+          "end": "武留匈奴凡十九岁，始以强壮出，及还，须发尽白"
+        }
+      ]
+    },
+    {
+      "title": "过秦论",
+      "aliases": [
+        "过秦论（上）",
+        "过秦论上篇",
+        "贾谊过秦论"
+      ],
+      "grade": "高中",
+      "volume": "选择性必修中册",
+      "text_type": "文言史论节选",
+      "source_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/da694670-f25b-46a0-9c3f-a31f5a2f131a.pkg/pdf.pdf"
+      ],
+      "note": "第三单元第11课，第93页。贾谊《过秦论》的上篇，从「秦孝公据崤函之固」起，止于「攻守之势异也」；中、下篇不在此课。",
+      "parts": [
+        {
+          "title": "上篇",
+          "start": "秦孝公据崤函之固",
+          "end": "仁义不施而攻守之势异也"
+        }
+      ]
+    },
+    {
+      "title": "五代史伶官传序",
+      "aliases": [
+        "伶官传序",
+        "新五代史·伶官传序",
+        "欧阳修五代史伶官传序"
+      ],
+      "grade": "高中",
+      "volume": "选择性必修中册",
+      "text_type": "文言史传序",
+      "source_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/da694670-f25b-46a0-9c3f-a31f5a2f131a.pkg/pdf.pdf"
+      ],
+      "note": "第三单元第11课，第96页，自读。欧阳修《新五代史》卷三十七篇首序论；止于「作《伶官传》」，不是伶官各传全文。"
+    },
+    {
+      "title": "燕歌行并序·小序",
+      "aliases": [
+        "燕歌行并序",
+        "高适燕歌行小序"
+      ],
+      "grade": "高中",
+      "volume": "选择性必修中册",
+      "text_type": "文言小序",
+      "source_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/da694670-f25b-46a0-9c3f-a31f5a2f131a.pkg/pdf.pdf"
+      ],
+      "note": "古诗词诵读，第126页。高适作。仅收「开元二十六年」起至「因而和焉」的文言序段，不含「汉家烟尘在东北」以下诗体正文。",
+      "parts": [
+        {
+          "title": "小序",
+          "start": "开元二十六年",
+          "end": "因而和焉"
+        }
+      ]
+    },
+    {
+      "title": "孔雀东南飞并序·小序",
+      "aliases": [
+        "孔雀东南飞并序",
+        "孔雀东南飞小序",
+        "古诗为焦仲卿妻作·小序",
+        "焦仲卿妻·小序"
+      ],
+      "grade": "高中",
+      "volume": "选择性必修下册",
+      "text_type": "文言小序",
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2de54e6d-1f82-4fdc-9f26-c94dfed9c5af.pkg/pdf.pdf"
+      ],
+      "note": "第一单元第2课，第7页，自读。依《玉台新咏》所述，只录「汉末建安中」至「为诗云尔」的序段，不含「孔雀东南飞，五里一徘徊」以下叙事诗。",
+      "parts": [
+        {
+          "title": "小序",
+          "start": "汉末建安中",
+          "end": "时人伤之，为诗云尔"
+        }
+      ]
+    },
+    {
+      "title": "扬州慢（淮左名都）·小序",
+      "aliases": [
+        "扬州慢小序",
+        "扬州慢（淮左名都）",
+        "姜夔扬州慢小序"
+      ],
+      "grade": "高中",
+      "volume": "选择性必修下册",
+      "text_type": "文言小序",
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2de54e6d-1f82-4fdc-9f26-c94dfed9c5af.pkg/pdf.pdf"
+      ],
+      "note": "第一单元第4课，第18页，自读。姜夔作。教材目录题名未注明「并序」，正文印有小序；只录「淳熙丙申至日」至「千岩老人以为有黍离之悲也」，不含词体正文。",
+      "parts": [
+        {
+          "title": "小序",
+          "start": "淳熙丙申至日",
+          "end": "千岩老人以为有黍离之悲也"
+        }
+      ]
+    },
+    {
+      "title": "陈情表",
+      "aliases": [
+        "陈情事表",
+        "李密陈情表"
+      ],
+      "grade": "高中",
+      "volume": "选择性必修下册",
+      "text_type": "文言奏表",
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2de54e6d-1f82-4fdc-9f26-c94dfed9c5af.pkg/pdf.pdf"
+      ],
+      "note": "第三单元第9课，第70页。李密作，从「臣密言」起。"
+    },
+    {
+      "title": "项脊轩志",
+      "aliases": [
+        "归有光项脊轩志"
+      ],
+      "grade": "高中",
+      "volume": "选择性必修下册",
+      "text_type": "文言记叙文",
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2de54e6d-1f82-4fdc-9f26-c94dfed9c5af.pkg/pdf.pdf"
+      ],
+      "note": "第三单元第9课，第72页，自读。归有光作；所核教材含补写部分，末句写庭中枇杷树。"
+    },
+    {
+      "title": "兰亭集序",
+      "aliases": [
+        "兰亭序",
+        "临河叙",
+        "王羲之兰亭集序"
+      ],
+      "grade": "高中",
+      "volume": "选择性必修下册",
+      "text_type": "文言诗集序",
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2de54e6d-1f82-4fdc-9f26-c94dfed9c5af.pkg/pdf.pdf"
+      ],
+      "note": "第三单元第10课，第75页。王羲之作，教材篇名是「兰亭集序」；其他题名或拓本文字不能直接替代本课。"
+    },
+    {
+      "title": "归去来兮辞并序",
+      "aliases": [
+        "归去来兮辞",
+        "归去来辞并序",
+        "归去来兮辞（并序）"
+      ],
+      "grade": "高中",
+      "volume": "选择性必修下册",
+      "text_type": "辞并序",
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2de54e6d-1f82-4fdc-9f26-c94dfed9c5af.pkg/pdf.pdf"
+      ],
+      "note": "第三单元第10课，第77页。陶渊明作。一个课文条目，含前置文言序及后续辞体正文，使用时标清两部分。",
+      "parts": [
+        {
+          "title": "序",
+          "start": "余家贫",
+          "end": "乙巳岁十一月也"
+        },
+        {
+          "title": "辞",
+          "start": "归去来兮，田园将芜胡不归",
+          "end": "乐夫天命复奚疑"
+        }
+      ]
+    },
+    {
+      "title": "种树郭橐驼传",
+      "aliases": [
+        "郭橐驼传",
+        "柳宗元种树郭橐驼传"
+      ],
+      "grade": "高中",
+      "volume": "选择性必修下册",
+      "text_type": "文言传记寓言",
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2de54e6d-1f82-4fdc-9f26-c94dfed9c5af.pkg/pdf.pdf"
+      ],
+      "note": "第三单元第11课，第81页，自读。柳宗元作。"
+    },
+    {
+      "title": "石钟山记",
+      "aliases": [
+        "苏轼石钟山记"
+      ],
+      "grade": "高中",
+      "volume": "选择性必修下册",
+      "text_type": "文言游记",
+      "source_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/2de54e6d-1f82-4fdc-9f26-c94dfed9c5af.pkg/pdf.pdf"
+      ],
+      "note": "第三单元第12课，第83页，自读。苏轼作，始于引《水经》，末段评郦道元与李渤。"
+    }
+  ]
+}

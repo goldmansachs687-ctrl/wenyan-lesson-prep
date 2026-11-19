@@ -1,0 +1,4 @@
+interface:
+  display_name: "文言文备课"
+  short_description: "查老师资料、统编课文和古义，生成小学到高中文言文课件与练习"
+  default_prompt: "用 $wenyan-lesson-prep 帮我备一节《〈论语〉十二章》的初中课，重点比较两处「而」的用法。"
