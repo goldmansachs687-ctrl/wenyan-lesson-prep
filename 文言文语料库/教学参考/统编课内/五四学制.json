@@ -1,0 +1,811 @@
+{
+  "scope": "国家智慧教育平台公开的人民教育出版社统编五四学制《语文》1—9年级。按主课文与带篇名的组文文言选段收录，含《少年中国说》节选。组文条目未单列印刷页码时，page 为组课起始页，可借此翻阅原册。",
+  "as_of": "2026-11-19",
+  "coverage": [
+    {
+      "grade": "一年级",
+      "volume": "上册",
+      "verified_edition": "2022年课标修订版",
+      "status": "已核目录无独立文言散文课文",
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=7775818d-f3ac-4f53-b43d-af3918a8634a&catalogType=tchMaterial&subCatalog=tchMaterial",
+        "https://s-file-2.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/7775818d-f3ac-4f53-b43d-af3918a8634a.json"
+      ],
+      "toc_urls": [
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/7775818d-f3ac-4f53-b43d-af3918a8634a.t/zh-CN/1787020605372/transcode/image/4.jpg",
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/7775818d-f3ac-4f53-b43d-af3918a8634a.t/zh-CN/1787020605372/transcode/image/5.jpg",
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/7775818d-f3ac-4f53-b43d-af3918a8634a.t/zh-CN/1787020605372/transcode/image/6.jpg"
+      ],
+      "lessons": []
+    },
+    {
+      "grade": "一年级",
+      "volume": "下册",
+      "verified_edition": "2022年课标修订版",
+      "status": "已核目录无独立文言散文课文",
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=7f4f199b-aab1-49b4-90e5-e36cfe975f02&catalogType=tchMaterial&subCatalog=tchMaterial",
+        "https://s-file-2.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/7f4f199b-aab1-49b4-90e5-e36cfe975f02.json"
+      ],
+      "toc_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/7f4f199b-aab1-49b4-90e5-e36cfe975f02.t/zh-CN/1772437091779/transcode/image/4.jpg",
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/7f4f199b-aab1-49b4-90e5-e36cfe975f02.t/zh-CN/1772437091779/transcode/image/5.jpg",
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/7f4f199b-aab1-49b4-90e5-e36cfe975f02.t/zh-CN/1772437091779/transcode/image/6.jpg"
+      ],
+      "lessons": []
+    },
+    {
+      "grade": "二年级",
+      "volume": "上册",
+      "verified_edition": "2022年课标修订版",
+      "status": "已核目录无独立文言散文课文",
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=cd28f45f-7f29-4dfb-bd35-ba310b57bc8c&catalogType=tchMaterial&subCatalog=tchMaterial",
+        "https://s-file-2.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/cd28f45f-7f29-4dfb-bd35-ba310b57bc8c.json"
+      ],
+      "toc_urls": [
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/cd28f45f-7f29-4dfb-bd35-ba310b57bc8c.t/zh-CN/1787020606480/transcode/image/4.jpg",
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/cd28f45f-7f29-4dfb-bd35-ba310b57bc8c.t/zh-CN/1787020606480/transcode/image/5.jpg"
+      ],
+      "lessons": []
+    },
+    {
+      "grade": "二年级",
+      "volume": "下册",
+      "verified_edition": "2022年课标修订版",
+      "status": "已核目录无独立文言散文课文",
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=6f1d8652-05df-432b-8ee4-6a5652ec677e&catalogType=tchMaterial&subCatalog=tchMaterial",
+        "https://s-file-2.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/6f1d8652-05df-432b-8ee4-6a5652ec677e.json"
+      ],
+      "toc_urls": [
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/6f1d8652-05df-432b-8ee4-6a5652ec677e.t/zh-CN/1772437092687/transcode/image/4.jpg",
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/6f1d8652-05df-432b-8ee4-6a5652ec677e.t/zh-CN/1772437092687/transcode/image/5.jpg"
+      ],
+      "lessons": []
+    },
+    {
+      "grade": "三年级",
+      "volume": "上册",
+      "verified_edition": "2022年课标修订版",
+      "status": "核对了国家智慧教育平台目录页",
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=9185e4a3-efb4-4ec0-bfd9-1cb194c260d3&catalogType=tchMaterial&subCatalog=tchMaterial",
+        "https://s-file-2.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/9185e4a3-efb4-4ec0-bfd9-1cb194c260d3.json"
+      ],
+      "toc_urls": [
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/9185e4a3-efb4-4ec0-bfd9-1cb194c260d3.t/zh-CN/1787020607234/transcode/image/4.jpg",
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/9185e4a3-efb4-4ec0-bfd9-1cb194c260d3.t/zh-CN/1787020607234/transcode/image/5.jpg"
+      ],
+      "lessons": [
+        {
+          "title": "司马光",
+          "lesson": 23,
+          "page": 96,
+          "aliases": [
+            "司马光砸缸",
+            "司马光击瓮"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "三年级",
+      "volume": "下册",
+      "verified_edition": "2022年课标修订版",
+      "status": "核对了国家智慧教育平台目录页",
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=bd1e1af7-f570-436d-afa4-f326691676f4&catalogType=tchMaterial&subCatalog=tchMaterial",
+        "https://s-file-2.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/bd1e1af7-f570-436d-afa4-f326691676f4.json"
+      ],
+      "toc_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/bd1e1af7-f570-436d-afa4-f326691676f4.t/zh-CN/1772437093382/transcode/image/4.jpg",
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/bd1e1af7-f570-436d-afa4-f326691676f4.t/zh-CN/1772437093382/transcode/image/5.jpg"
+      ],
+      "lessons": [
+        {
+          "title": "守株待兔",
+          "lesson": 5,
+          "page": 16
+        }
+      ]
+    },
+    {
+      "grade": "四年级",
+      "volume": "上册",
+      "verified_edition": "2022年课标修订版",
+      "status": "核对了国家智慧教育平台目录页",
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=d3b5a21b-f8d1-4633-8231-407100c8204d&catalogType=tchMaterial&subCatalog=tchMaterial",
+        "https://s-file-2.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/d3b5a21b-f8d1-4633-8231-407100c8204d.json"
+      ],
+      "toc_urls": [
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/d3b5a21b-f8d1-4633-8231-407100c8204d.t/zh-CN/1787020608369/transcode/image/4.jpg",
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/d3b5a21b-f8d1-4633-8231-407100c8204d.t/zh-CN/1787020608369/transcode/image/5.jpg"
+      ],
+      "lessons": [
+        {
+          "title": "精卫填海",
+          "lesson": 12,
+          "page": 50
+        },
+        {
+          "title": "王戎不取道旁李",
+          "lesson": 23,
+          "page": 102,
+          "aliases": [
+            "王戎识李",
+            "王戎不取道旁苦李"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "四年级",
+      "volume": "下册",
+      "verified_edition": "修订前统编版",
+      "status": "核对了国家智慧教育平台目录页",
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=750e0014-1488-4774-9f73-8781de6faf51&catalogType=tchMaterial&subCatalog=tchMaterial",
+        "https://s-file-2.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/750e0014-1488-4774-9f73-8781de6faf51.json"
+      ],
+      "toc_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/750e0014-1488-4774-9f73-8781de6faf51.t/zh-CN/1772437094246/transcode/image/4.jpg",
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/750e0014-1488-4774-9f73-8781de6faf51.t/zh-CN/1772437094246/transcode/image/5.jpg"
+      ],
+      "lessons": [
+        {
+          "title": "囊萤夜读",
+          "lesson": 18,
+          "page": 76,
+          "aliases": [
+            "车胤囊萤",
+            "囊萤"
+          ],
+          "group": "文言文二则"
+        },
+        {
+          "title": "铁杵成针",
+          "lesson": 18,
+          "page": 76,
+          "aliases": [
+            "铁杵磨针",
+            "磨针溪"
+          ],
+          "group": "文言文二则"
+        }
+      ]
+    },
+    {
+      "grade": "五年级",
+      "volume": "上册",
+      "verified_edition": "2022年课标修订版",
+      "status": "核对了国家智慧教育平台目录页",
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=e2055f40-fa27-4c9d-adf4-3586e26f418e&catalogType=tchMaterial&subCatalog=tchMaterial",
+        "https://s-file-2.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/e2055f40-fa27-4c9d-adf4-3586e26f418e.json"
+      ],
+      "toc_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/e2055f40-fa27-4c9d-adf4-3586e26f418e.t/zh-CN/1787020609324/transcode/image/4.jpg",
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/e2055f40-fa27-4c9d-adf4-3586e26f418e.t/zh-CN/1787020609324/transcode/image/5.jpg"
+      ],
+      "lessons": [
+        {
+          "title": "少年中国说",
+          "lesson": 12,
+          "page": 54,
+          "aliases": [
+            "少年中国说（节选）",
+            "少年中国说(节选)"
+          ]
+        },
+        {
+          "title": "古人谈读书",
+          "lesson": 23,
+          "page": 102,
+          "aliases": [
+            "古人谈读书（论语）",
+            "古人谈读书（朱熹）",
+            "读书有三到"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "五年级",
+      "volume": "下册",
+      "verified_edition": "修订前统编版",
+      "status": "核对了国家智慧教育平台目录页",
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=f182b376-35af-4e94-849a-91ea3f97023c&catalogType=tchMaterial&subCatalog=tchMaterial",
+        "https://s-file-2.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/f182b376-35af-4e94-849a-91ea3f97023c.json"
+      ],
+      "toc_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/f182b376-35af-4e94-849a-91ea3f97023c.t/zh-CN/1772437094906/transcode/image/4.jpg",
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/f182b376-35af-4e94-849a-91ea3f97023c.t/zh-CN/1772437094906/transcode/image/5.jpg"
+      ],
+      "lessons": [
+        {
+          "title": "自相矛盾",
+          "lesson": 15,
+          "page": 74,
+          "aliases": [
+            "矛与盾"
+          ]
+        },
+        {
+          "title": "杨氏之子",
+          "lesson": 21,
+          "page": 98,
+          "aliases": [
+            "杨氏子"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "六年级",
+      "volume": "上册",
+      "verified_edition": "2022年课标修订版",
+      "status": "核对了国家智慧教育平台目录页",
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=2ca4002f-cb3d-4a21-bcfe-ebb94032a400&catalogType=tchMaterial&subCatalog=tchMaterial",
+        "https://s-file-2.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/2ca4002f-cb3d-4a21-bcfe-ebb94032a400.json"
+      ],
+      "toc_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/2ca4002f-cb3d-4a21-bcfe-ebb94032a400.t/zh-CN/1787020583268/transcode/image/4.jpg",
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/2ca4002f-cb3d-4a21-bcfe-ebb94032a400.t/zh-CN/1787020583268/transcode/image/5.jpg",
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/2ca4002f-cb3d-4a21-bcfe-ebb94032a400.t/zh-CN/1787020583268/transcode/image/6.jpg"
+      ],
+      "lessons": [
+        {
+          "title": "两小儿辩日",
+          "lesson": 25,
+          "page": 128,
+          "aliases": [
+            "两小儿辩太阳"
+          ],
+          "group": "文言文二则"
+        },
+        {
+          "title": "曹冲称象",
+          "lesson": 25,
+          "page": 128,
+          "aliases": [
+            "称象",
+            "曹冲称象（文言版）"
+          ],
+          "group": "文言文二则"
+        }
+      ]
+    },
+    {
+      "grade": "六年级",
+      "volume": "下册",
+      "verified_edition": "2022年课标修订版",
+      "status": "核对了国家智慧教育平台目录页",
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=a953eeec-db0c-4c8b-860f-aa94f4727b6b&catalogType=tchMaterial&subCatalog=tchMaterial",
+        "https://s-file-2.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/a953eeec-db0c-4c8b-860f-aa94f4727b6b.json"
+      ],
+      "toc_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/a953eeec-db0c-4c8b-860f-aa94f4727b6b.t/zh-CN/1772437035839/transcode/image/4.jpg",
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/a953eeec-db0c-4c8b-860f-aa94f4727b6b.t/zh-CN/1772437035839/transcode/image/5.jpg",
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/a953eeec-db0c-4c8b-860f-aa94f4727b6b.t/zh-CN/1772437035839/transcode/image/6.jpg"
+      ],
+      "lessons": [
+        {
+          "title": "学弈",
+          "lesson": 12,
+          "page": 46,
+          "group": "文言文二则"
+        },
+        {
+          "title": "关尹子教射",
+          "lesson": 12,
+          "page": 47,
+          "group": "文言文二则",
+          "aliases": [
+            "列子学射",
+            "关尹教射"
+          ],
+          "note": "本册《文言文二则》的第二则，选自《列子·说符》。"
+        }
+      ]
+    },
+    {
+      "grade": "七年级",
+      "volume": "上册",
+      "verified_edition": "2022年课标修订版",
+      "status": "核对了国家智慧教育平台目录页",
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=df82f043-281e-48ef-931a-34b951ae8c26&catalogType=tchMaterial&subCatalog=tchMaterial",
+        "https://s-file-2.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/df82f043-281e-48ef-931a-34b951ae8c26.json"
+      ],
+      "toc_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/df82f043-281e-48ef-931a-34b951ae8c26.t/zh-CN/1787020580257/transcode/image/4.jpg",
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/df82f043-281e-48ef-931a-34b951ae8c26.t/zh-CN/1787020580257/transcode/image/5.jpg",
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/df82f043-281e-48ef-931a-34b951ae8c26.t/zh-CN/1787020580257/transcode/image/6.jpg",
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/df82f043-281e-48ef-931a-34b951ae8c26.t/zh-CN/1787020580257/transcode/image/7.jpg"
+      ],
+      "lessons": [
+        {
+          "title": "咏雪",
+          "lesson": 8,
+          "page": 34,
+          "aliases": [
+            "世说新语二则·咏雪",
+            "谢太傅寒雪日内集"
+          ],
+          "group": "《世说新语》二则"
+        },
+        {
+          "title": "陈太丘与友期行",
+          "lesson": 8,
+          "page": 34,
+          "aliases": [
+            "陈太丘与友期",
+            "世说新语二则·陈太丘与友期行"
+          ],
+          "group": "《世说新语》二则"
+        },
+        {
+          "title": "论语十二章",
+          "lesson": 12,
+          "page": 62,
+          "aliases": [
+            "《论语》十二章",
+            "论语十二章（初中）",
+            "论语十二章（七上）"
+          ]
+        },
+        {
+          "title": "诫子书",
+          "lesson": 16,
+          "page": 91,
+          "aliases": [
+            "诸葛亮诫子书"
+          ]
+        },
+        {
+          "title": "狼",
+          "lesson": 20,
+          "page": 125,
+          "aliases": [
+            "狼三则·其二",
+            "狼三则之二",
+            "蒲松龄·狼",
+            "聊斋志异·狼"
+          ]
+        },
+        {
+          "title": "穿井得一人",
+          "lesson": 24,
+          "page": 146,
+          "aliases": [
+            "丁氏穿井",
+            "寓言四则·穿井得一人"
+          ],
+          "group": "寓言四则"
+        },
+        {
+          "title": "杞人忧天",
+          "lesson": 24,
+          "page": 146,
+          "aliases": [
+            "寓言四则·杞人忧天"
+          ],
+          "group": "寓言四则"
+        }
+      ]
+    },
+    {
+      "grade": "七年级",
+      "volume": "下册",
+      "verified_edition": "2022年课标修订版",
+      "status": "核对了国家智慧教育平台目录页",
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=d08cae24-887e-45bd-8ccb-b56af508a293&catalogType=tchMaterial&subCatalog=tchMaterial",
+        "https://s-file-2.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/d08cae24-887e-45bd-8ccb-b56af508a293.json"
+      ],
+      "toc_urls": [
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/d08cae24-887e-45bd-8ccb-b56af508a293.t/zh-CN/1772437033344/transcode/image/4.jpg",
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/d08cae24-887e-45bd-8ccb-b56af508a293.t/zh-CN/1772437033344/transcode/image/5.jpg",
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/d08cae24-887e-45bd-8ccb-b56af508a293.t/zh-CN/1772437033344/transcode/image/6.jpg",
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/d08cae24-887e-45bd-8ccb-b56af508a293.t/zh-CN/1772437033344/transcode/image/7.jpg"
+      ],
+      "lessons": [
+        {
+          "title": "孙权劝学",
+          "lesson": 4,
+          "page": 20,
+          "aliases": [
+            "孙权劝吕蒙",
+            "吕蒙就学"
+          ]
+        },
+        {
+          "title": "卖油翁",
+          "lesson": 13,
+          "page": 82
+        },
+        {
+          "title": "陋室铭",
+          "lesson": 17,
+          "page": 111,
+          "aliases": [
+            "短文两篇·陋室铭"
+          ],
+          "group": "短文两篇"
+        },
+        {
+          "title": "爱莲说",
+          "lesson": 17,
+          "page": 111,
+          "aliases": [
+            "短文两篇·爱莲说"
+          ],
+          "group": "短文两篇"
+        },
+        {
+          "title": "活板",
+          "lesson": 25,
+          "page": 169,
+          "aliases": [
+            "活字印刷",
+            "梦溪笔谈·活板"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "八年级",
+      "volume": "上册",
+      "verified_edition": "2022年课标修订版",
+      "status": "核对了国家智慧教育平台目录页",
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=c8b697f9-6a7a-4057-85ef-7651f68aa91e&catalogType=tchMaterial&subCatalog=tchMaterial",
+        "https://s-file-2.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/c8b697f9-6a7a-4057-85ef-7651f68aa91e.json"
+      ],
+      "toc_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/c8b697f9-6a7a-4057-85ef-7651f68aa91e.t/zh-CN/1787020582370/transcode/image/4.jpg",
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/c8b697f9-6a7a-4057-85ef-7651f68aa91e.t/zh-CN/1787020582370/transcode/image/5.jpg",
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/c8b697f9-6a7a-4057-85ef-7651f68aa91e.t/zh-CN/1787020582370/transcode/image/6.jpg",
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/c8b697f9-6a7a-4057-85ef-7651f68aa91e.t/zh-CN/1787020582370/transcode/image/7.jpg"
+      ],
+      "lessons": [
+        {
+          "title": "三峡",
+          "lesson": 11,
+          "page": 62,
+          "aliases": [
+            "水经注·三峡"
+          ]
+        },
+        {
+          "title": "答谢中书书",
+          "lesson": 12,
+          "page": 64,
+          "aliases": [
+            "短文二篇·答谢中书书"
+          ],
+          "group": "短文二篇"
+        },
+        {
+          "title": "记承天寺夜游",
+          "lesson": 12,
+          "page": 64,
+          "aliases": [
+            "承天寺夜游",
+            "记承天夜游",
+            "短文二篇·记承天寺夜游"
+          ],
+          "group": "短文二篇"
+        },
+        {
+          "title": "与朱元思书",
+          "lesson": 13,
+          "page": 67,
+          "aliases": [
+            "与朱元思书（吴均）"
+          ]
+        },
+        {
+          "title": "得道多助，失道寡助",
+          "lesson": 23,
+          "page": 144,
+          "aliases": [
+            "得道多助失道寡助",
+            "得道多助",
+            "孟子三章·得道多助，失道寡助"
+          ],
+          "group": "《孟子》三章"
+        },
+        {
+          "title": "富贵不能淫",
+          "lesson": 23,
+          "page": 144,
+          "aliases": [
+            "孟子三章·富贵不能淫",
+            "孟子二章·富贵不能淫"
+          ],
+          "group": "《孟子》三章"
+        },
+        {
+          "title": "生于忧患，死于安乐",
+          "lesson": 23,
+          "page": 144,
+          "aliases": [
+            "生于忧患死于安乐",
+            "生于忧患",
+            "孟子三章·生于忧患，死于安乐",
+            "孟子二章·生于忧患，死于安乐"
+          ],
+          "group": "《孟子》三章"
+        },
+        {
+          "title": "愚公移山",
+          "lesson": 24,
+          "page": 148,
+          "aliases": [
+            "列子·愚公移山"
+          ]
+        },
+        {
+          "title": "周亚夫军细柳",
+          "lesson": 25,
+          "page": 151,
+          "aliases": [
+            "细柳营",
+            "周亚夫细柳营",
+            "史记·周亚夫军细柳"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "八年级",
+      "volume": "下册",
+      "verified_edition": "2022年课标修订版",
+      "status": "核对了国家智慧教育平台目录页",
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=03491549-8712-48a3-8fc8-5a616e6f492e&catalogType=tchMaterial&subCatalog=tchMaterial",
+        "https://s-file-2.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/03491549-8712-48a3-8fc8-5a616e6f492e.json"
+      ],
+      "toc_urls": [
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/03491549-8712-48a3-8fc8-5a616e6f492e.t/zh-CN/1772437035126/transcode/image/4.jpg",
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/03491549-8712-48a3-8fc8-5a616e6f492e.t/zh-CN/1772437035126/transcode/image/5.jpg",
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/03491549-8712-48a3-8fc8-5a616e6f492e.t/zh-CN/1772437035126/transcode/image/6.jpg",
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/03491549-8712-48a3-8fc8-5a616e6f492e.t/zh-CN/1772437035126/transcode/image/7.jpg"
+      ],
+      "lessons": [
+        {
+          "title": "桃花源记",
+          "lesson": 9,
+          "page": 62,
+          "aliases": [
+            "桃花源记并诗·序",
+            "桃花源诗并记·记"
+          ]
+        },
+        {
+          "title": "小石潭记",
+          "lesson": 10,
+          "page": 66,
+          "aliases": [
+            "至小丘西小石潭记"
+          ]
+        },
+        {
+          "title": "核舟记",
+          "lesson": 11,
+          "page": 68,
+          "aliases": [
+            "魏学洢·核舟记"
+          ]
+        },
+        {
+          "title": "北冥有鱼",
+          "lesson": 21,
+          "page": 134,
+          "aliases": [
+            "庄子二则·北冥有鱼",
+            "逍遥游·北冥有鱼"
+          ],
+          "group": "《庄子》二则"
+        },
+        {
+          "title": "庄子与惠子游于濠梁之上",
+          "lesson": 21,
+          "page": 134,
+          "aliases": [
+            "庄子二则·庄子与惠子游于濠梁之上",
+            "濠梁之辩",
+            "濠梁观鱼"
+          ],
+          "group": "《庄子》二则"
+        },
+        {
+          "title": "虽有嘉肴",
+          "lesson": 22,
+          "page": 137,
+          "aliases": [
+            "礼记二则·虽有嘉肴",
+            "学记·虽有嘉肴"
+          ],
+          "group": "《礼记》二则"
+        },
+        {
+          "title": "大道之行也",
+          "lesson": 22,
+          "page": 137,
+          "aliases": [
+            "礼记二则·大道之行也",
+            "礼运·大道之行也",
+            "礼运大同篇"
+          ],
+          "group": "《礼记》二则"
+        },
+        {
+          "title": "马说",
+          "lesson": 23,
+          "page": 140,
+          "aliases": [
+            "杂说四·马说",
+            "杂说四",
+            "韩愈·马说"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "九年级",
+      "volume": "上册",
+      "verified_edition": "2022年课标修订版",
+      "status": "核对了国家智慧教育平台目录页",
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=d6941a82-0aa3-4c6c-a198-b95ea84a6852&catalogType=tchMaterial&subCatalog=tchMaterial",
+        "https://s-file-2.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/d6941a82-0aa3-4c6c-a198-b95ea84a6852.json"
+      ],
+      "toc_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/d6941a82-0aa3-4c6c-a198-b95ea84a6852.t/zh-CN/1787020581216/transcode/image/4.jpg",
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/d6941a82-0aa3-4c6c-a198-b95ea84a6852.t/zh-CN/1787020581216/transcode/image/5.jpg",
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/d6941a82-0aa3-4c6c-a198-b95ea84a6852.t/zh-CN/1787020581216/transcode/image/6.jpg",
+        "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/d6941a82-0aa3-4c6c-a198-b95ea84a6852.t/zh-CN/1787020581216/transcode/image/7.jpg"
+      ],
+      "lessons": [
+        {
+          "title": "岳阳楼记",
+          "lesson": 11,
+          "page": 50
+        },
+        {
+          "title": "醉翁亭记",
+          "lesson": 12,
+          "page": 53
+        },
+        {
+          "title": "湖心亭看雪",
+          "lesson": 13,
+          "page": 56,
+          "aliases": [
+            "张岱·湖心亭看雪"
+          ]
+        },
+        {
+          "title": "曹刿论战",
+          "lesson": 23,
+          "page": 136,
+          "aliases": [
+            "长勺之战",
+            "左传·曹刿论战"
+          ]
+        },
+        {
+          "title": "邹忌讽齐王纳谏",
+          "lesson": 24,
+          "page": 139,
+          "aliases": [
+            "邹忌讽谏"
+          ]
+        },
+        {
+          "title": "陈涉世家",
+          "lesson": 25,
+          "page": 142,
+          "aliases": [
+            "陈胜吴广起义",
+            "史记·陈涉世家"
+          ]
+        },
+        {
+          "title": "出师表",
+          "lesson": 26,
+          "page": 146,
+          "aliases": [
+            "前出师表",
+            "诸葛亮·出师表"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": "九年级",
+      "volume": "下册",
+      "verified_edition": "修订前统编版",
+      "status": "核对了国家智慧教育平台目录页",
+      "source_urls": [
+        "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=ab06a72c-93e6-4135-b549-900db6783fa9&catalogType=tchMaterial&subCatalog=tchMaterial",
+        "https://s-file-2.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/ab06a72c-93e6-4135-b549-900db6783fa9.json"
+      ],
+      "toc_urls": [
+        "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/ab06a72c-93e6-4135-b549-900db6783fa9.t/zh-CN/1772437034266/transcode/image/4.jpg",
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/ab06a72c-93e6-4135-b549-900db6783fa9.t/zh-CN/1772437034266/transcode/image/5.jpg",
+        "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/ab06a72c-93e6-4135-b549-900db6783fa9.t/zh-CN/1772437034266/transcode/image/6.jpg"
+      ],
+      "lessons": [
+        {
+          "title": "鱼我所欲也",
+          "lesson": 9,
+          "page": 48,
+          "aliases": [
+            "鱼，我所欲也",
+            "孟子·鱼我所欲也"
+          ]
+        },
+        {
+          "title": "唐雎不辱使命",
+          "lesson": 10,
+          "page": 51,
+          "aliases": [
+            "唐雎不辱使命（战国策）"
+          ]
+        },
+        {
+          "title": "送东阳马生序",
+          "lesson": 11,
+          "page": 54,
+          "aliases": [
+            "送东阳马生序（节选）",
+            "送东阳马生序(节选)"
+          ]
+        },
+        {
+          "title": "曹刿论战",
+          "lesson": 20,
+          "page": 124,
+          "aliases": [
+            "长勺之战",
+            "左传·曹刿论战"
+          ]
+        },
+        {
+          "title": "邹忌讽齐王纳谏",
+          "lesson": 21,
+          "page": 127,
+          "aliases": [
+            "邹忌讽谏"
+          ]
+        },
+        {
+          "title": "陈涉世家",
+          "lesson": 22,
+          "page": 129,
+          "aliases": [
+            "陈胜吴广起义",
+            "史记·陈涉世家"
+          ]
+        },
+        {
+          "title": "出师表",
+          "lesson": 23,
+          "page": 133,
+          "aliases": [
+            "前出师表",
+            "诸葛亮·出师表"
+          ]
+        }
+      ]
+    }
+  ]
+}

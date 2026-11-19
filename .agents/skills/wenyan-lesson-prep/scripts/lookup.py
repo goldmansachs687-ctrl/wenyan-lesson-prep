@@ -224,8 +224,15 @@ def main():
     modes.add_argument("--dictionary", action="store_true", help="查字书与具书证的文言候选义")
     parser.add_argument("--grade", default="", help="配合 --teacher 或 --course 使用")
     parser.add_argument("--volume", default="", help="配合 --course 指定册次")
+    parser.add_argument("--school-system", choices=("六三", "五四"), help="配合 --course 指定义务教育学制")
+    parser.add_argument("--source", choices=("wiktionary", "kangxi", "shuowen"),
+                        help="配合 --dictionary 指定查词来源")
     parser.add_argument("--text", action="store_true", help="展开原稿所在小节或课文底本")
     args = parser.parse_args()
+    if args.school_system and not args.course:
+        parser.error("--school-system 须配合 --course 使用。")
+    if args.source and not args.dictionary:
+        parser.error("--source 须配合 --dictionary 使用。")
     keyword, title, category = (value.strip() for value in (args.keyword, args.title, args.category))
     if not (compact(keyword) or compact(title) or compact(category)):
         parser.error("请提供关键词、篇名或题型。")
@@ -246,12 +253,16 @@ def main():
                 directory = find_corpus()
                 if args.course:
                     params = [*common, "--grade", args.grade, "--volume", args.volume]
+                    if args.school_system:
+                        params.extend(("--school-system", args.school_system))
                     if args.text:
                         params.append("--text")
                     script = directory / "教学参考" / "统编课内" / "查课文.py" if directory else None
                     result = run_local_lookup(script, *params)
                 else:
                     script = directory / "字书" / "扩充" / "查字典.py" if directory else None
+                    if args.source:
+                        common.extend(("--source", args.source))
                     result = run_local_lookup(script, *common)
         except (OSError, ValueError, RuntimeError, subprocess.TimeoutExpired) as error:
             parser.exit(1, f"{error}\n")

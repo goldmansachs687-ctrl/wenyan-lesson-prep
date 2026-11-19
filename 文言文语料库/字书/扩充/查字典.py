@@ -42,8 +42,16 @@ QUERY_NOTES = (
     "古字书释文保留原字和书证。字头命中是查读线索，具体语境义以本课原句和采分点为准。",
     "「有文言引文」表示维基词典将该义项与文言引文关联；「书面语」是原词典使用标签。",
     "「源数据异体」为该来源记录的字形关系，「OpenCC 简繁候选」存在一对多，应看返回的原字头。",
+    "「字书核对候选」用于源索引缺录的字头关系，返回相应字书记录及出处。",
 )
-MATCH_LABELS = ("原字头", "源数据异体", "OpenCC 简繁候选")
+MATCH_TYPES = (
+    ("exact", "原字头"),
+    ("source_variant", "源数据异体"),
+    ("simplified_variant", "OpenCC 简繁候选"),
+    ("reviewed_variant", "字书核对候选"),
+)
+# 《康熙字典》手部「擧」条明确记为「舉本字」。
+REVIEWED_VARIANTS = {"举": ("擧",), "舉": ("擧",)}
 
 
 def simplified_candidates(query, root):
@@ -63,21 +71,24 @@ def source_entries(connection, query, variants, source, limit, max_chars):
     # The indexed first two queries preserve a distinction between exact and
     # variant spellings. OpenCC candidates are alternate heads, not merged.
     queries = [
-        ("SELECT * FROM entries WHERE headword = ? ORDER BY priority, id LIMIT ?", (query, limit)),
+        (0, "SELECT * FROM entries WHERE headword = ? ORDER BY priority, id LIMIT ?", (query, limit)),
         (
-            "SELECT entries.* FROM aliases JOIN entries ON entries.id = aliases.entry_id "
+            1, "SELECT entries.* FROM aliases JOIN entries ON entries.id = aliases.entry_id "
             "WHERE aliases.alias = ? ORDER BY entries.priority, entries.id LIMIT ?",
             (query, limit),
         ),
     ]
-    if variants:
-        placeholders = ", ".join("?" for _ in variants)
+    for rank, candidates in enumerate((variants, REVIEWED_VARIANTS.get(query, ())), start=2):
+        if not candidates:
+            continue
+        placeholders = ", ".join("?" for _ in candidates)
         queries.append((
+            rank,
             f"SELECT * FROM entries WHERE headword IN ({placeholders}) ORDER BY priority, id LIMIT ?",
-            (*variants, limit),
+            (*candidates, limit),
         ))
     matched = set()
-    for rank, (statement, parameters) in enumerate(queries):
+    for rank, statement, parameters in queries:
         for row in connection.execute(statement, parameters):
             if row["id"] in matched:
                 continue
@@ -94,8 +105,8 @@ def source_entries(connection, query, variants, source, limit, max_chars):
                 "language": row["language"],
                 "labels": json.loads(row["labels"]),
                 "source_url": row["source_url"],
-                "match": ("exact", "source_variant", "simplified_variant")[rank],
-                "match_label": MATCH_LABELS[rank],
+                "match": MATCH_TYPES[rank][0],
+                "match_label": MATCH_TYPES[rank][1],
                 "locator": row["locator"],
                 "license": source["license"],
                 "part_of_speech": row["part_of_speech"],
@@ -108,7 +119,7 @@ def lookup(query="", limit=8, source_id=None, max_chars=2200, root=ROOT):
     query = query.strip()
     variants = simplified_candidates(query, root)
     sources = []
-    by_match = [[], [], []]
+    by_match = [[] for _ in MATCH_TYPES]
     for source in SOURCES:
         if source_id and source["id"] != source_id:
             continue
@@ -123,7 +134,7 @@ def lookup(query="", limit=8, source_id=None, max_chars=2200, root=ROOT):
                 metadata = db.execute("SELECT document FROM provenance").fetchone()
                 if metadata is None:
                     raise ValueError("缺少来源信息")
-                groups = [[], [], []]
+                groups = [[] for _ in MATCH_TYPES]
                 if query:
                     for rank, row in source_entries(db, query, variants, source, limit, max_chars):
                         groups[rank].append(row)

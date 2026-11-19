@@ -300,5 +300,85 @@
     "work": "周敦颐《爱莲说》",
     "source": "https://zh.wikisource.org/wiki/愛蓮說",
     "searchQuote": "予独爱莲之出淤泥而不染，濯清涟而不妖"
+  },
+  {
+    "id": "R29",
+    "category": "实词",
+    "term": "举",
+    "quote": "傅说举于版筑之间",
+    "meaning": "举：被选拔、被任用。",
+    "pitfall": "从“于版筑之间”判断人物处境的变化。",
+    "work": "《孟子·告子下》：生于忧患，死于安乐",
+    "source": "https://raw.githubusercontent.com/tangyuan0821/Junior-Middle-School-poetry/b4566586ed88bd8916b458e5a60e2100243a1428/poetry.json"
+  },
+  {
+    "id": "R30",
+    "category": "实词",
+    "term": "举",
+    "quote": "举大计亦死",
+    "meaning": "举：发动、施行。大计指当时要筹划的起义。",
+    "pitfall": "与同段“今亡亦死”对读，区分逃亡与起事。",
+    "work": "司马迁《史记·陈涉世家》",
+    "source": "https://raw.githubusercontent.com/tangyuan0821/Junior-Middle-School-poetry/b4566586ed88bd8916b458e5a60e2100243a1428/poetry.json"
+  },
+  {
+    "id": "R31",
+    "category": "实词",
+    "term": "属",
+    "quote": "忠之属也",
+    "meaning": "属：类。曹刿说这是尽本职的一类事情。",
+    "pitfall": "从前一句处置案件的做法判断属于哪一类。",
+    "work": "《左传·曹刿论战》",
+    "source": "https://raw.githubusercontent.com/tangyuan0821/Junior-Middle-School-poetry/b4566586ed88bd8916b458e5a60e2100243a1428/poetry.json"
+  },
+  {
+    "id": "R32",
+    "category": "通假",
+    "term": "属",
+    "quote": "属予作文以记之",
+    "meaning": "属：同“嘱”，嘱托。这里是滕子京嘱托作者写文章记述所叙之事。",
+    "pitfall": "找谁嘱托谁、嘱托做什么。通假按实际教材注释说明。",
+    "work": "范仲淹《岳阳楼记》",
+    "source": "https://raw.githubusercontent.com/tangyuan0821/Junior-Middle-School-poetry/b4566586ed88bd8916b458e5a60e2100243a1428/poetry.json"
+  },
+  {
+    "id": "R33",
+    "category": "实词",
+    "term": "顾",
+    "quote": "元方入门不顾",
+    "meaning": "顾：回头看。句中说元方进门时没有回头。",
+    "pitfall": "“入门”与“不顾”连续，先说动作，再读出态度。",
+    "work": "刘义庆《世说新语·方正》：陈太丘与友期行",
+    "source": "https://raw.githubusercontent.com/tangyuan0821/Junior-Middle-School-poetry/b4566586ed88bd8916b458e5a60e2100243a1428/poetry.json"
+  },
+  {
+    "id": "R34",
+    "category": "实词",
+    "term": "顾",
+    "quote": "三顾臣于草庐之中",
+    "meaning": "顾：拜访。先帝到草庐访问诸葛亮。",
+    "pitfall": "“臣”是动作对象，草庐是地点，后文“咨臣”也能提供线索。",
+    "work": "诸葛亮《出师表》",
+    "source": "https://raw.githubusercontent.com/tangyuan0821/Junior-Middle-School-poetry/b4566586ed88bd8916b458e5a60e2100243a1428/poetry.json"
+  },
+  {
+    "id": "R35",
+    "category": "实词",
+    "term": "假",
+    "quote": "假舆马者，非利足也，而致千里",
+    "meaning": "假：借助。借助车马的人并非善于奔走，却能到达很远的地方。",
+    "pitfall": "利用与脚力的转折，以及下一句借舟楫的例子核对本义。",
+    "work": "《荀子·劝学》",
+    "source": "https://raw.githubusercontent.com/HelloZWH-0620/Reciting-us/40a00d0cd9bfd3c530770d72efbdae1a4c61105f/RecitingUsApp/web/config/articles.json"
+  },
+  {
+    "id": "R36",
+    "category": "词类活用",
+    "term": "水",
+    "quote": "假舟楫者，非能水也，而绝江河",
+    "meaning": "水：游泳。句中说借船的人并非会游泳，却能横渡江河。",
+    "pitfall": "“能”后侧重人的能力，“绝”指横渡；译文要保留转折。",
+    "work": "《荀子·劝学》",
+    "source": "https://raw.githubusercontent.com/HelloZWH-0620/Reciting-us/40a00d0cd9bfd3c530770d72efbdae1a4c61105f/RecitingUsApp/web/config/articles.json"
   }
 ]

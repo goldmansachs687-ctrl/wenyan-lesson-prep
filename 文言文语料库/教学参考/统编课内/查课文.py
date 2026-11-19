@@ -10,6 +10,7 @@ import unicodedata
 
 ROOT = Path(__file__).resolve().parent
 CATALOGUES = ("义务教育.json", "高中.json")
+FIVE_FOUR = "五四学制.json"
 EXACT_GRADES = "一二三四五六七八九"
 GRADE_ALIASES = {"初一": "七年级", "初二": "八年级", "初三": "九年级", **dict.fromkeys(("高一", "高二", "高三"), "高中")}
 GRADE_FORM = re.compile(r"([一二三四五六七八九1-9])(?:年级)?(?:([上下])(?:册)?)?")
@@ -30,8 +31,29 @@ def period(grade):
     return ""
 
 
-def catalogue():
-    for filename in CATALOGUES:
+def five_four_volumes():
+    path = ROOT / FIVE_FOUR
+    if path.is_file():
+        yield from json.loads(path.read_text(encoding="utf-8-sig"))["coverage"]
+
+
+def catalogue(school_system=""):
+    if school_system == "五四":
+        for book in five_four_volumes():
+            grade = book["grade"]
+            stage = "初中" if grade == "六年级" else period(grade)
+            for lesson in book["lessons"]:
+                yield {
+                    "stage": stage,
+                    "school_system": "五四",
+                    "grade": grade,
+                    "volume": book["volume"],
+                    "editions": [book["verified_edition"]],
+                    "source_urls": book["source_urls"][:1],
+                    **lesson,
+                }
+        return
+    for filename in CATALOGUES[:1] if school_system == "六三" else CATALOGUES:
         path = ROOT / filename
         if path.is_file():
             data = json.loads(path.read_text(encoding="utf-8-sig"))
@@ -39,13 +61,16 @@ def catalogue():
                 yield {"stage": period(row["grade"]), **row}
 
 
-def volumes():
+def volumes(school_system=""):
+    if school_system == "五四":
+        yield from five_four_volumes()
+        return
     required = ROOT / CATALOGUES[0]
     secondary = ROOT / CATALOGUES[1]
     if required.is_file():
         data = json.loads(required.read_text(encoding="utf-8-sig"))
         yield from data.get("coverage", [])
-    if secondary.is_file():
+    if school_system != "六三" and secondary.is_file():
         data = json.loads(secondary.read_text(encoding="utf-8-sig"))
         books = {}
         for row in data["entries"]:
@@ -57,9 +82,9 @@ def volumes():
             }
 
 
-def texts():
+def texts(filename="正文.jsonl"):
     records = {}
-    path = ROOT / "正文.jsonl"
+    path = ROOT / filename
     if path.is_file():
         with path.open(encoding="utf-8-sig") as stream:
             for line in stream:
@@ -68,7 +93,7 @@ def texts():
     return records
 
 
-def lookup(query, grade="", volume="", limit=12, show_text=False, match_body=False, edition=""):
+def lookup(query, grade="", volume="", limit=12, show_text=False, match_body=False, edition="", school_system=""):
     word = normalize(query)
     grade = GRADE_ALIASES.get(grade.strip(), grade.strip())
     if match := GRADE_FORM.fullmatch(grade):
@@ -81,8 +106,9 @@ def lookup(query, grade="", volume="", limit=12, show_text=False, match_body=Fal
     if volume in {"上", "下", "必修上", "必修下", "选择性必修上", "选择性必修中", "选择性必修下"}:
         volume += "册"
     books = texts()
+    specific_books = texts("正文-五四.jsonl") if school_system == "五四" else {}
     matches = []
-    for entry in catalogue():
+    for entry in catalogue(school_system):
         if grade and grade not in {entry["grade"], entry["stage"]}:
             continue
         if volume and volume != entry["volume"]:
@@ -91,9 +117,14 @@ def lookup(query, grade="", volume="", limit=12, show_text=False, match_body=Fal
             continue
         title = entry["title"]
         names = [title, *entry.get("aliases", [])]
-        item = next((books[key] for name in names for key in (
-            (entry["grade"], name), ("", name)
-        ) if key in books), None)
+        body_keys = [(level, name) for name in names for level in (entry["grade"], "")]
+        specific = next((specific_books[key] for key in body_keys if key in specific_books), None)
+        item = specific or next((books[key] for key in body_keys if key in books), None)
+        if school_system == "五四" and item is None:
+            other_grades = [body for (level, name), body in books.items()
+                            if name == title and level != "高中"]
+            if len(other_grades) == 1:
+                item = other_grades[0]
         keys = [normalize(name) for name in names]
         if not word or word in keys:
             rank = 0
@@ -106,6 +137,10 @@ def lookup(query, grade="", volume="", limit=12, show_text=False, match_body=Fal
         record = {**entry, "text_status": item["status"] if item else "正文待补"}
         if item:
             evidence = {key: value for key, value in item.items() if key != "text"}
+            if school_system == "五四" and specific is None:
+                evidence.pop("boundary_source_url", None)
+                evidence["variant_note"] = "此处为共享古文底本。五四教材的选段、字形与标点以指定原册为准。"
+                record["text_status"] = "共享底本参照"
             record["base_text"] = evidence
             if show_text:
                 record["base_text"]["text"] = item["text"]
@@ -114,16 +149,16 @@ def lookup(query, grade="", volume="", limit=12, show_text=False, match_body=Fal
     return [record for _, record in matches[:limit]]
 
 
-def stats():
-    rows = list(catalogue())
-    bodies = texts()
-    matches = list(lookup("", limit=len(rows)))
+def stats(school_system=""):
+    rows = list(catalogue(school_system))
+    bodies = texts("正文-五四.jsonl") if school_system == "五四" else texts()
+    matches = list(lookup("", limit=len(rows), school_system=school_system))
     return {
         "placements": len(rows),
         "titles": len({row["title"] for row in rows}),
         "by_stage": dict(Counter(row["stage"] for row in rows)),
         "by_grade_and_volume": dict(Counter(f"{row['grade']}/{row['volume']}" for row in rows)),
-        "volumes": list(volumes()),
+        "volumes": list(volumes(school_system)),
         "text_status_by_placement": dict(Counter(row["text_status"] for row in matches)),
         "text_file_records": len(bodies),
         "open_text_gaps": sorted({row["title"] for row in matches if not row.get("base_text")}),
@@ -136,6 +171,8 @@ def main():
     parser.add_argument("--grade", default="", help="小学、初中、高中、年级名或简写，如 八下")
     parser.add_argument("--volume", default="", help="如：上册、选择性必修下册")
     parser.add_argument("--edition", default="", help="筛选目录已标注的版次，如 修订前早期印次")
+    parser.add_argument("--school-system", choices=("六三", "五四"), default="",
+                        help="选择义务教育学制；默认保留六三学制与高中的查询范围")
     parser.add_argument("--list", action="store_true", help="列出本册或现有目录")
     parser.add_argument("--text", action="store_true", help="附有出处的离线底本正文")
     parser.add_argument("--match-body", action="store_true", help="额外按原字形匹配原文")
@@ -144,19 +181,24 @@ def main():
     parser.add_argument("--limit", type=int, default=12, help="返回数目，1–200")
     args = parser.parse_args()
     if args.stats:
-        print(json.dumps(stats(), ensure_ascii=False, indent=2))
+        print(json.dumps(stats(args.school_system), ensure_ascii=False, indent=2))
         return
     if not 1 <= args.limit <= 200 or (not normalize(args.query) and not args.list):
         parser.error("请提供篇名或使用 --list。结果数量应为 1–200。")
     limit = 200 if args.list and args.limit == 12 else args.limit
-    rows = lookup(args.query, args.grade, args.volume, limit, args.text, args.match_body, args.edition)
+    rows = lookup(args.query, args.grade, args.volume, limit, args.text, args.match_body,
+                  args.edition, args.school_system)
     if args.json:
         print(json.dumps(rows, ensure_ascii=False, indent=2))
         return
     if not rows:
         print("暂无匹配。可用较短的篇名，或用 --list 查看册次。")
     for row in rows:
-        print(f"《{row['title']}》 {row['grade']}·{row['volume']}｜{row['text_status']}")
+        system = f"{row['school_system']}学制 " if "school_system" in row else ""
+        print(f"《{row['title']}》 {system}{row['grade']}·{row['volume']}｜{row['text_status']}")
+        if row.get("page"):
+            group = f" {row['group']}" if row.get("group") else ""
+            print(f"教材第{row['lesson']}课{group}，参见第{row['page']}页｜{row['source_urls'][0]}")
         if row.get("note"):
             print(row["note"])
         if row.get("base_text"):
