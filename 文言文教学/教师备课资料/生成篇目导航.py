@@ -41,7 +41,7 @@ def indexed_titles(course_titles):
     data = json.loads((INDEX / "原稿索引.json").read_text(encoding="utf-8"))["records"]
     for record in data:
         path = ROOT / record["path"]
-        extract = ROOT / record["extract"]
+        extract = ROOT / record["extract"] if record.get("extract") else None
         if not path.is_file():
             continue
         found = set()
@@ -55,7 +55,7 @@ def indexed_titles(course_titles):
 
         for title in {path.stem, record["title"]}:
             add(title, "题名", None)
-        if record["status"] not in {"ok", "partial_needs_ocr"} or not extract.is_file():
+        if record["status"] not in {"ok", "partial_needs_ocr"} or extract is None or not extract.is_file():
             continue
         previous = ""
         for number, text in enumerate(extract.read_text(encoding="utf-8").splitlines(), 1):

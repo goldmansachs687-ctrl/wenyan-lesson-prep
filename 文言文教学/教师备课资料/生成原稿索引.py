@@ -21,9 +21,12 @@ STATUS_LABELS = {
     "needs_ocr": "没有文本层，需要 OCR",
     "partial_needs_ocr": "部分页面没有文本，请检查是否需要 OCR",
     "pdf_tool_unavailable": "缺少可用的 PDF 提取工具",
+    "unsupported": "格式暂不支持，请另存为 DOCX 或 PDF",
     "error": "读取失败",
 }
 SUPPORTED = {".docx", ".pdf", ".md", ".txt"}
+# 老式 Word、WPS 和表格文件不静默丢弃，编入索引并提示转存，避免归档后查不到。
+UNSUPPORTED = {".doc", ".wps", ".wpt", ".xls", ".xlsx", ".ppt", ".pptx", ".rtf"}
 
 
 def word_contents(path):
@@ -79,6 +82,10 @@ def word_contents(path):
         return 0
 
     def inline_text(node):
+        # Word 拼音指南：只取被注音的正文，丢弃上方的拼音，避免「dú椟」混入引文。
+        if node.tag == tag("ruby"):
+            base = node.find(tag("rubyBase"))
+            return inline_text(base) if base is not None else ""
         if node.tag == tag("t"):
             return node.text or ""
         if node.tag == tag("tab"):
@@ -222,6 +229,20 @@ def write_text_atomic(path, text):
         staged.unlink(missing_ok=True)
 
 
+def unsupported_record(relative_path):
+    """格式不支持时也留一条记录，让老师知道归档里有这份、但查不到文字。"""
+    return {
+        "path": relative_path.as_posix(),
+        "extract": None,
+        "title": relative_path.stem,
+        "kind": relative_path.suffix.lower().removeprefix("."),
+        "headings": [],
+        "table_count": 0,
+        "page_count": None,
+        "status": "unsupported",
+    }
+
+
 def index_document(root, path, relative_path, extract_path, previous):
     record = {
         "path": relative_path.as_posix(),
@@ -302,10 +323,19 @@ def catalogue(records):
         lines.extend(["", f"## {folder or '根目录'}（{len(entries)} 份）", ""])
         for record in entries:
             source = quote("../" + record["path"], safe="/")
-            extract = quote(record["extract"].removeprefix("索引/"), safe="/")
             label = record["path"].split("/")[-1]
             label = label.replace("\\", r"\\").replace("[", r"\[").replace("]", r"\]")
-            lines.append(f'- [{label}]({source}) · [文字摘录]({extract}) · {STATUS_LABELS[record["status"]]}')
+            if record["extract"]:
+                extract = quote(record["extract"].removeprefix("索引/"), safe="/")
+                lines.append(f'- [{label}]({source}) · [文字摘录]({extract}) · {STATUS_LABELS[record["status"]]}')
+            else:
+                lines.append(f'- [{label}]({source}) · {STATUS_LABELS[record["status"]]}（未提取文字）')
+
+    skipped = [record for record in records if record["status"] == "unsupported"]
+    if skipped:
+        lines.extend(["", "## 未纳入检索的格式", "",
+                      "下列文件已归档，但当前只提取 DOCX、PDF、MD、TXT。转存为 DOCX 或 PDF 后重跑本脚本即可检索。", ""])
+        lines.extend(f'- {record["path"]}（{record["kind"].upper()}）' for record in skipped)
     return "\n".join(lines) + "\n"
 
 
@@ -330,11 +360,17 @@ def main():
         previous = {}
     paths = sorted(originals.rglob("*"), key=lambda path: path.as_posix().casefold())
     for path in paths:
-        if path.suffix.lower() not in SUPPORTED or path.name.startswith("~$"):
+        if path.name.startswith("~$"):
             continue
         if not path.is_file() or not path.resolve().is_relative_to(originals.resolve()):
             continue
         relative_path = path.relative_to(root)
+        suffix = path.suffix.lower()
+        if suffix in UNSUPPORTED:
+            records.append(unsupported_record(relative_path))
+            continue
+        if suffix not in SUPPORTED:
+            continue
         extract = Path("索引", "摘录", path.relative_to(originals)).with_name(path.name + ".txt")
         records.append(index_document(root, path, relative_path, extract, previous.get(relative_path.as_posix(), {})))
 
