@@ -1,7 +1,7 @@
 """检查公开备课包的课文、辞书、分级题库与教师资料检索。"""
 
 import argparse
-from contextlib import redirect_stdout
+from contextlib import ExitStack, redirect_stdout
 from io import StringIO
 import json
 from pathlib import Path
@@ -18,6 +18,10 @@ TEACHER = ROOT / "文言文教学" / "教师备课资料"
 COURSE = ROOT / "文言文语料库" / "教学参考" / "统编课内"
 DICTIONARY = ROOT / "文言文语料库" / "字书" / "扩充"
 SKILL_LOOKUP = ROOT / ".agents" / "skills" / "wenyan-lesson-prep" / "scripts" / "lookup.py"
+
+
+class FixturePermissionError(Exception):
+    """当前环境无法准备教师资料导航的临时样例。"""
 
 
 def require(condition, detail):
@@ -332,9 +336,12 @@ def check_knowledge_system():
 
     map_text = read(base / "20-篇目地图.md")
     standard, five_four = map_text.split("## 五四学制", 1)
-    placement = r"^\| [^|]+ \| [^|]+ \| [^|]+ \| [1-9]\d* \|"
+    placement = r"^\| [^|]+ \| [^|]+ \| [^|]+ \| [^|]+ \| [1-9]\d* \|"
     counts = [len(re.findall(placement, segment, flags=re.MULTILINE)) for segment in (standard, five_four)]
     require(counts == [96, 57] and "正文待补" not in map_text, f"篇目地图应覆盖 96 + 57 个有底本的位置，实际为 {counts}")
+    require("| 两小儿辩日 | 上册 | 2022年课标修订版 |" in standard
+            and "| 两小儿辩日 | 下册 | 修订前统编版 |" in standard,
+            "篇目地图应区分《两小儿辩日》的修订版六上与修订前六下")
 
     cards = json.loads(read(ROOT / ".agents" / "skills" / "wenyan-lesson-prep" / "references" / "classroom.json"))
     require(all(card.get("title") for card in cards), "有课堂卡缺少关联篇目")
@@ -343,12 +350,16 @@ def check_knowledge_system():
 
 
 def check_teacher_navigation():
-    with TemporaryDirectory() as directory:
-        sandbox = Path(directory)
-        originals = sandbox / "原始资料"
-        originals.mkdir()
-        (originals / "司马光.doc").write_bytes(b"test fixture, format is not parsed")
-        (originals / "课堂笔记.md").write_text("# 守株待兔\n学生先圈出动作词。\n", encoding="utf-8")
+    with ExitStack() as cleanup:
+        try:
+            directory = cleanup.enter_context(TemporaryDirectory(ignore_cleanup_errors=True))
+            sandbox = Path(directory)
+            originals = sandbox / "原始资料"
+            originals.mkdir()
+            (originals / "司马光.doc").write_bytes(b"test fixture, format is not parsed")
+            (originals / "课堂笔记.md").write_text("# 守株待兔\n学生先圈出动作词。\n", encoding="utf-8")
+        except PermissionError as error:
+            raise FixturePermissionError("当前环境限制临时样例写入，教师资料导航尚未验证。") from error
         subprocess.run([sys.executable, "-B", "-X", "utf8", str(TEACHER / "生成原稿索引.py"),
                         "--root", str(sandbox)], cwd=ROOT, check=True, capture_output=True, timeout=20)
         index = sandbox / "索引"
@@ -368,6 +379,7 @@ def check_teacher_navigation():
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--json", action="store_true", help="输出结构化验收结果")
+    parser.add_argument("--read-only", action="store_true", help="只做公开资料与查询检查，跳过需要写入临时样例的教师资料导航测试")
     args = parser.parse_args()
     checks = (
         ("统编目录", check_curriculum_catalogue), ("课内底本", check_curriculum_text),
@@ -378,22 +390,32 @@ def main():
     )
     results = []
     for name, check in checks:
+        if args.read_only and check is check_teacher_navigation:
+            results.append({"name": name, "passed": None, "detail": "只读模式，跳过临时样例写入。"})
+            continue
         try:
             results.append({"name": name, "passed": True, "detail": check()})
+        except FixturePermissionError as error:
+            results.append({"name": name, "passed": None, "detail": str(error)})
         except (OSError, ValueError, KeyError, IndexError, TypeError, StopIteration,
                 subprocess.SubprocessError) as error:
             detail = " ".join(str(error).split())[:240]
             results.append({"name": name, "passed": False, "detail": detail})
-    passed = sum(row["passed"] for row in results)
+    passed = sum(row["passed"] is True for row in results)
+    skipped = sum(row["passed"] is None for row in results)
+    executed = len(results) - skipped
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
     if args.json:
-        print(json.dumps({"passed": passed, "total": len(results), "checks": results}, ensure_ascii=False, indent=2))
+        print(json.dumps({"passed": passed, "total": len(results), "executed": executed,
+                          "skipped": skipped, "checks": results}, ensure_ascii=False, indent=2))
     else:
+        labels = {True: "通过", False: "未通过", None: "跳过"}
         for row in results:
-            print(f"{'通过' if row['passed'] else '未通过'}｜{row['name']}｜{row['detail']}")
-        print(f"共通过 {passed}/{len(results)} 项。")
-    return 0 if passed == len(results) else 1
+            print(f"{labels[row['passed']]}｜{row['name']}｜{row['detail']}")
+        suffix = f"，跳过 {skipped} 项" if skipped else ""
+        print(f"共通过 {passed}/{executed} 项{suffix}。")
+    return 0 if passed == executed else 1
 
 
 if __name__ == "__main__":

@@ -64,14 +64,15 @@ def append_rows(lines, rows, cards):
         if row["grade"] != current_grade:
             current_grade = row["grade"]
             lines.extend(["", f"### {row['stage']}·{current_grade}" if current_grade != row["stage"] else f"### {current_grade}", "",
-                          "| 篇目 | 册次 | 文体 | 正文字数 | 正文依据 | 已有课堂卡 |",
-                          "| --- | --- | --- | --- | --- | --- |"])
+                          "| 篇目 | 册次 | 教材版次 | 文体 | 正文字数 | 正文依据 | 已有课堂卡 |",
+                          "| --- | --- | --- | --- | --- | --- | --- |"])
         body = normalize(row.get("base_text", {}).get("text", ""))
         terms = dict.fromkeys(card["term"] for card in cards.get(row["title"], [])
                               if normalize(card.get("searchQuote") or card["quote"]) in body)
         covered = "、".join(terms) or "—"
         count = len(body)
-        lines.append(f'| {row["title"]} | {row["volume"]} | {row.get("text_type") or "—"} '
+        editions = "／".join(row.get("editions", [])) or "—"
+        lines.append(f'| {row["title"]} | {row["volume"]} | {editions} | {row.get("text_type") or "—"} '
                      f'| {count} | {row["text_status"]} | {covered} |')
 
 
@@ -86,6 +87,7 @@ def main():
         "# 篇目地图", "",
         f"共 {len(standard) + len(five_four)} 个文言文收录位置。相同篇目跨学制、册次或版次时分别计数。",
         "字数按所附底本计算，课堂篇幅以本册课文为准。共享底本需复核本册的选段、字形和标点。",
+        "教材版次来自已核目录。版次为「—」时，可按册次到对应教材目录查出处。",
         "课堂卡按原句与当前底本匹配。同名篇目的不同选段分别核对，字形有异时可按考点另查。",
         "", "## 六三学制与高中",
     ]
