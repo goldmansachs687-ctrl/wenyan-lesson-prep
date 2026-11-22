@@ -253,7 +253,8 @@ def check_guide_links():
 def check_exercises():
     """检查分级题库齐全、学生版不泄题、题量完整。"""
     base = ROOT / "文言文知识体系" / "练习"
-    levels = (("L0-认读", 8), ("L1-词义", 12), ("L2-句法", 12), ("L3-翻译", 10), ("L4-篇章", 8), ("L5-应试", 5))
+    levels = (("L0-认读", 8), ("L1-词义", 12), ("L2-句法", 12), ("L3-翻译", 10), ("L4-篇章", 8),
+              ("L5-应试", 5), ("L5-应试-平行卷", 8))
     require((base / "README.md").is_file(), "题库缺少说明文件")
     require((ROOT / "文言文知识体系" / "验证" / "黄金备课用例.md").is_file(), "缺少黄金备课用例")
     require((ROOT / "文言文知识体系" / "从这里开始.md").is_file(), "缺少总入口")
@@ -283,8 +284,9 @@ def check_exercises():
         require(re.findall(r"^## (L[0-5]) ", document, flags=re.MULTILINE)
                 == [f"L{level}" for level in range(6)], "复测未逐级提供相应任务或答案")
     require("参考答案" not in retest and "采分点" not in retest, "复测学生版出现答案或采分点")
-    return (f"L0—L5 共 {total} 题，另有六级独立复测，学生版与教师版分开，学生版无答案与采分点；"
-            f"6 份分级学习包结构完整；黄金备课用例、讲解范例、总入口在位")
+    return (f"L0—L5 共 {total} 题（L5 两套换材卷：卷一 5 题 + 卷二 8 题），另有六级独立复测，"
+            f"学生版与教师版分开，学生版无答案与采分点；6 份分级学习包结构完整；"
+            f"真题选卷与改编指南、黄金备课用例、讲解范例、总入口在位")
 
 
 def check_knowledge_system():
@@ -300,6 +302,7 @@ def check_knowledge_system():
         "诊断/诊断卷.md", "诊断/诊断答案.md", "诊断/定级.py",
         "分级/README.md", "分级/L0-认读包.md", "分级/L1-词义包.md",
         "分级/L2-句法包.md", "分级/L3-翻译包.md", "分级/L4-篇章包.md", "分级/L5-应试包.md",
+        "练习/README.md", "练习/真题选卷与改编指南.md",
     )
     missing = [name for name in required if not (base / name).is_file()]
     require(not missing, f"知识体系缺少 {len(missing)} 份文件，例如 {missing[0] if missing else ''}")
@@ -345,7 +348,7 @@ def check_knowledge_system():
 
     cards = json.loads(read(ROOT / ".agents" / "skills" / "wenyan-lesson-prep" / "references" / "classroom.json"))
     require(all(card.get("title") for card in cards), "有课堂卡缺少关联篇目")
-    return (f"{len(required)} 份体系与分级文件齐全，引文可回查，18 个虚词例句可用，"
+    return (f"{len(required)} 份体系、分级与题库指引文件齐全，引文可回查，18 个虚词例句可用，"
             f"定级脚本覆盖 L0—L5 及真题门槛，篇目地图 153 个位置，{len(cards)} 张课堂卡有关联篇目")
 
 
