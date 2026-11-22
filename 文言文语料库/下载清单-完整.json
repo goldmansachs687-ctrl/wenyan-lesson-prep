@@ -1,0 +1,206 @@
+{
+  "files": [
+    {
+      "file": "原文/ect-krp/LICENSE",
+      "url": "https://raw.githubusercontent.com/direct-phonology/ect-krp/b28fab8f54b0e3ec3ca97cc2baa8caecfe71259f/LICENSE",
+      "project": "https://github.com/direct-phonology/ect-krp",
+      "license_note": "CC-BY-SA-4.0",
+      "bytes": 20138,
+      "sha256": "3b2890eacd851373001c4a14623458e3adaf1b1967939aa9c38a318e28d61c00",
+      "count": null,
+      "unit": null
+    },
+    {
+      "file": "原文/ect-krp/README.md",
+      "url": "https://raw.githubusercontent.com/direct-phonology/ect-krp/b28fab8f54b0e3ec3ca97cc2baa8caecfe71259f/README.md",
+      "project": "https://github.com/direct-phonology/ect-krp",
+      "license_note": "CC-BY-SA-4.0",
+      "bytes": 7913,
+      "sha256": "990133cef6d2f2d1c4fec557ad1d1a218818193b72984893c09efc7fca71ddcd",
+      "count": null,
+      "unit": null
+    },
+    {
+      "file": "原文/ect-krp/jsonl/KR1h0004.jsonl",
+      "url": "https://raw.githubusercontent.com/direct-phonology/ect-krp/b28fab8f54b0e3ec3ca97cc2baa8caecfe71259f/jsonl/KR1h0004.jsonl",
+      "project": "https://github.com/direct-phonology/ect-krp",
+      "license_note": "CC-BY-SA-4.0",
+      "bytes": 48960,
+      "sha256": "c7dc8c19d5fc90b1eab8bfa5478bba9b5886437e284c1db5b43f2760cd2e0b9b",
+      "count": 20,
+      "unit": "records"
+    },
+    {
+      "file": "原文/ect-krp/jsonl/KR1h0001.jsonl",
+      "url": "https://raw.githubusercontent.com/direct-phonology/ect-krp/b28fab8f54b0e3ec3ca97cc2baa8caecfe71259f/jsonl/KR1h0001.jsonl",
+      "project": "https://github.com/direct-phonology/ect-krp",
+      "license_note": "CC-BY-SA-4.0",
+      "bytes": 106877,
+      "sha256": "d3ea301657f5ea4beb4404afa7bba1da2337131f58b1e9d98d624ad4f6a32b54",
+      "count": 14,
+      "unit": "records"
+    },
+    {
+      "file": "原文/ect-krp/jsonl/KR3c0005.jsonl",
+      "url": "https://raw.githubusercontent.com/direct-phonology/ect-krp/b28fab8f54b0e3ec3ca97cc2baa8caecfe71259f/jsonl/KR3c0005.jsonl",
+      "project": "https://github.com/direct-phonology/ect-krp",
+      "license_note": "CC-BY-SA-4.0",
+      "bytes": 319432,
+      "sha256": "ffd3a7f5f3cc97fd1e5236ca6db457561ccc4bd118f4269e45c9fb841640efd1",
+      "count": 20,
+      "unit": "records"
+    },
+    {
+      "file": "原文/ect-krp/jsonl/KR3a0002.jsonl",
+      "url": "https://raw.githubusercontent.com/direct-phonology/ect-krp/b28fab8f54b0e3ec3ca97cc2baa8caecfe71259f/jsonl/KR3a0002.jsonl",
+      "project": "https://github.com/direct-phonology/ect-krp",
+      "license_note": "CC-BY-SA-4.0",
+      "bytes": 234280,
+      "sha256": "ece9ea648573715206c361707d6c8e63aac25501a42faa072e5585e60502f333",
+      "count": 22,
+      "unit": "records"
+    },
+    {
+      "file": "原文/ect-krp/jsonl/KR5c0126.jsonl",
+      "url": "https://raw.githubusercontent.com/direct-phonology/ect-krp/b28fab8f54b0e3ec3ca97cc2baa8caecfe71259f/jsonl/KR5c0126.jsonl",
+      "project": "https://github.com/direct-phonology/ect-krp",
+      "license_note": "CC-BY-SA-4.0",
+      "bytes": 197702,
+      "sha256": "961d67a5e498f83129d6d1d115798568e59891398b9626527bf2ec453e92ce31",
+      "count": 33,
+      "unit": "records"
+    },
+    {
+      "file": "原文/ect-krp/jsonl/KR2e0003.jsonl",
+      "url": "https://raw.githubusercontent.com/direct-phonology/ect-krp/b28fab8f54b0e3ec3ca97cc2baa8caecfe71259f/jsonl/KR2e0003.jsonl",
+      "project": "https://github.com/direct-phonology/ect-krp",
+      "license_note": "CC-BY-SA-4.0",
+      "bytes": 371909,
+      "sha256": "44a0bb99ae074a59af9259436b97fa256dfec89bba27524a6998b8a82050e3ec",
+      "count": 10,
+      "unit": "records"
+    },
+    {
+      "file": "原文/ect-krp/jsonl/KR3j0002.jsonl",
+      "url": "https://raw.githubusercontent.com/direct-phonology/ect-krp/b28fab8f54b0e3ec3ca97cc2baa8caecfe71259f/jsonl/KR3j0002.jsonl",
+      "project": "https://github.com/direct-phonology/ect-krp",
+      "license_note": "CC-BY-SA-4.0",
+      "bytes": 228248,
+      "sha256": "1327ebcc73d6f7f83b7a8d835ceaeda73bde54ac1e7a149c7bfa85424679b206",
+      "count": 15,
+      "unit": "records"
+    },
+    {
+      "file": "原文/ect-krp/jsonl/KR3j0009.jsonl",
+      "url": "https://raw.githubusercontent.com/direct-phonology/ect-krp/b28fab8f54b0e3ec3ca97cc2baa8caecfe71259f/jsonl/KR3j0009.jsonl",
+      "project": "https://github.com/direct-phonology/ect-krp",
+      "license_note": "CC-BY-SA-4.0",
+      "bytes": 301027,
+      "sha256": "2bbb1c1412386fbb057d4602b012ab0ac4471e3a0920b1647bf986587758b32a",
+      "count": 26,
+      "unit": "records"
+    },
+    {
+      "file": "原文/ect-krp/jsonl/KR5c0124.jsonl",
+      "url": "https://raw.githubusercontent.com/direct-phonology/ect-krp/b28fab8f54b0e3ec3ca97cc2baa8caecfe71259f/jsonl/KR5c0124.jsonl",
+      "project": "https://github.com/direct-phonology/ect-krp",
+      "license_note": "CC-BY-SA-4.0",
+      "bytes": 92922,
+      "sha256": "119900597435f09d8d202b34f5879ac25456dfeaff7366665588633016b503c3",
+      "count": 8,
+      "unit": "records"
+    },
+    {
+      "file": "原文/ect-krp/jsonl/KR1j0002.jsonl",
+      "url": "https://raw.githubusercontent.com/direct-phonology/ect-krp/b28fab8f54b0e3ec3ca97cc2baa8caecfe71259f/jsonl/KR1j0002.jsonl",
+      "project": "https://github.com/direct-phonology/ect-krp",
+      "license_note": "CC-BY-SA-4.0",
+      "bytes": 35901,
+      "sha256": "83163ec95658fd26643c8b1b66905e2fef3b3f60abbf236eee491c56de902baf",
+      "count": 18,
+      "unit": "records"
+    },
+    {
+      "file": "原文/chinese-poetry/LICENSE",
+      "url": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/LICENSE",
+      "project": "https://github.com/chinese-poetry/chinese-poetry",
+      "license_note": "MIT repository; underlying ancient text, verify editorial sources",
+      "bytes": 1076,
+      "sha256": "c195319aeaa3ffcbe16aa5d26eec19eae5a42f84337dd2b3dc3c9d5ccbbd6507",
+      "count": null,
+      "unit": null
+    },
+    {
+      "file": "原文/chinese-poetry/论语/README.md",
+      "url": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/%E8%AE%BA%E8%AF%AD/README.md",
+      "project": "https://github.com/chinese-poetry/chinese-poetry",
+      "license_note": "MIT repository; underlying ancient text, verify editorial sources",
+      "bytes": 2920,
+      "sha256": "cf68aeebf8982ac12307c62c12a6107f1185c3911081c20fba75a860a8a66139",
+      "count": null,
+      "unit": null
+    },
+    {
+      "file": "原文/chinese-poetry/论语/lunyu.json",
+      "url": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/%E8%AE%BA%E8%AF%AD/lunyu.json",
+      "project": "https://github.com/chinese-poetry/chinese-poetry",
+      "license_note": "MIT repository; underlying ancient text, verify editorial sources",
+      "bytes": 74799,
+      "sha256": "bc336a3839706377892719db44c48a09794a493190535a42bf1c7d4c4233e96c",
+      "count": 20,
+      "unit": "top_level_items"
+    },
+    {
+      "file": "教学参考/初中古诗文旧版/LICENSE",
+      "url": "https://raw.githubusercontent.com/tangyuan0821/Junior-Middle-School-poetry/b4566586ed88bd8916b458e5a60e2100243a1428/LICENSE",
+      "project": "https://github.com/tangyuan0821/Junior-Middle-School-poetry",
+      "license_note": "CC BY-SA 4.0。按旧版教材 OCR 整理，使用时核对字形和选段。",
+      "bytes": 20137,
+      "sha256": "23ee78c8bae49cf08ea2f0c84945c66b987ebe4520881fb51b3dad4fb43d07c2",
+      "count": null,
+      "unit": null
+    },
+    {
+      "file": "教学参考/reciting-us/LICENSE",
+      "url": "https://raw.githubusercontent.com/HelloZWH-0620/Reciting-us/40a00d0cd9bfd3c530770d72efbdae1a4c61105f/LICENSE",
+      "project": "https://github.com/HelloZWH-0620/Reciting-us/blob/main/PROVENANCE.md",
+      "license_note": "MIT for project-authored text; ancient originals public domain per PROVENANCE.md",
+      "bytes": 1070,
+      "sha256": "9cf1a9d2d237ea8958879010fd1f9f2517739cb8afa95fb5eb8388b2a046dac7",
+      "count": null,
+      "unit": null
+    },
+    {
+      "file": "教学参考/reciting-us/PROVENANCE.md",
+      "url": "https://raw.githubusercontent.com/HelloZWH-0620/Reciting-us/40a00d0cd9bfd3c530770d72efbdae1a4c61105f/PROVENANCE.md",
+      "project": "https://github.com/HelloZWH-0620/Reciting-us/blob/main/PROVENANCE.md",
+      "license_note": "MIT for project-authored text; ancient originals public domain per PROVENANCE.md",
+      "bytes": 1977,
+      "sha256": "020fdfbe0425c3d8336ce0b46dbbeab1c4da1b25ed90ced9a0ac96c2419675d0",
+      "count": null,
+      "unit": null
+    },
+    {
+      "file": "教学参考/taotao/LICENSE",
+      "url": "https://raw.githubusercontent.com/ichangting/taotao-skills/4d6f67f4d88bcabc1f4f1fd857e0d92e7fb67575/LICENSE",
+      "project": "https://github.com/ichangting/taotao-skills/tree/main/skills/gushiwen",
+      "license_note": "MIT for the repository-authored skill and guides; exam excerpts have separate provenance",
+      "bytes": 1371,
+      "sha256": "f5a36428311d73bbc0b5e479526746f15c28a279422d454f04c9907b17d4b949",
+      "count": null,
+      "unit": null
+    },
+    {
+      "file": "教学参考/taotao/skills/gushiwen/references/文言词表/江西省中考文言文高频词表.md",
+      "url": "https://raw.githubusercontent.com/ichangting/taotao-skills/4d6f67f4d88bcabc1f4f1fd857e0d92e7fb67575/skills/gushiwen/references/%E6%96%87%E8%A8%80%E8%AF%8D%E8%A1%A8/%E6%B1%9F%E8%A5%BF%E7%9C%81%E4%B8%AD%E8%80%83%E6%96%87%E8%A8%80%E6%96%87%E9%AB%98%E9%A2%91%E8%AF%8D%E8%A1%A8.md",
+      "project": "https://github.com/ichangting/taotao-skills/tree/main/skills/gushiwen",
+      "license_note": "MIT for the repository-authored skill and guides; exam excerpts have separate provenance",
+      "bytes": 14140,
+      "sha256": "d6dcf7f3f354033ad99a75f09c2403717d95981be0d143d7e7efa2c9ce63d7bc",
+      "count": 103,
+      "unit": "词头",
+      "adaptation": "选录词头、次数和候选义项标签。"
+    }
+  ],
+  "failures": []
+}
